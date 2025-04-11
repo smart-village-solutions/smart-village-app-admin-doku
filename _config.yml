@@ -1,0 +1,10 @@
+title: Dokumentation für Smart Village App Administratoren
+description: Dokumentation zur Konfiguration und Administration der App und Ihrer Module
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+
+Optionales Menü (auskommentieren, wenn du Navigation manuell willst)
+just_the_docs:
+  nav:
+    - title: Start
+      url: /
