@@ -23,8 +23,9 @@ email: docs@smart-village.app
 description: >-
   Dokumentation zur Konfiguration und Administration der Smart Village App
   und ihrer Module für Administrator:innen in Städten und Gemeinden.
-baseurl: "" # the subpath of your site, e.g. /docs
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/smart-village-app-admin-doku"
+url: "https://smart-village-solutions.github.io"
+
 
 # Build settings
 remote_theme: just-the-docs/just-the-docs
