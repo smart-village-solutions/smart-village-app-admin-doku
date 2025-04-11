@@ -6,5 +6,19 @@ color_scheme: light
 Optionales Menü (auskommentieren, wenn du Navigation manuell willst)
 just_the_docs:
   nav:
-    - title: Start
+    - title: "Willkommen"
       url: /
+    - title: "Rollen & Berechtigungen"
+      url: /rollen
+    - title: "Benutzerverwaltung"
+      url: /nutzermanagement
+    - title: "CMS & Inhalte"
+      url: /cms
+    - title: "Push-Nachrichten"
+      url: /push-notifications
+    - title: "Datenfilter & Feeds"
+      url: /filter
+    - title: "API-Zugriffe"
+      url: /api
+    - title: "FAQ & Tipps"
+      url: /faq
