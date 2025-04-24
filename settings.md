@@ -145,7 +145,8 @@ Ein Einführungstext oberhalb der Veranstaltungsübersicht inkl. Aktionsbutton.
 }
 ```
 
-- Aktiviert einen Pause-Button im Bildslider
+- "sliderPauseButton": Aktiviert einen Pause-Button im Bildslider;
+  - "size", "horizontalPosition", "verticalPosition" bestimmt die Größe und Position des Button im Bild
 - `autoplayInterval`: Dauer in Millisekunden zwischen Slides
 
 #### 🔄 Personalisierte Kacheln & Ansichten
@@ -219,7 +220,7 @@ Ein Einführungstext oberhalb der Veranstaltungsübersicht inkl. Aktionsbutton.
 
 ---
 
-### 🚌 busBb
+### 🧰 Bürger- und Unternehmensservices
 
 ```json
 "busBb": {
@@ -235,7 +236,7 @@ Ein Einführungstext oberhalb der Veranstaltungsübersicht inkl. Aktionsbutton.
 }
 ```
 
-- Einbindung des ÖPNV-Angebots für mehrere Städte/Gemeinden
+- Einbindung der Verwaltungsleistungen des Bürger- und Unternehmensservices des jeweiligen Landes (hier am Beispiel des BUS-RLP)
 
 ---
 
@@ -245,7 +246,7 @@ Ein Einführungstext oberhalb der Veranstaltungsübersicht inkl. Aktionsbutton.
 "onboarding": true
 ```
 
-- Wenn `true`, wird ein Onboarding für neue Nutzer aktiviert
+- Wenn `true`, wird die App-Einführung für neue Nutzende aktiviert bzw. Nutzende können die App-Einführung individuell in den Einstellungen erneut aktivieren
 
 ---
 
