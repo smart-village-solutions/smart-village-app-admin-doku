@@ -7,8 +7,9 @@ title: CMS & Inhalte
 
 Under construction
 
-Die folgende Anleitung für Co-RedakteurInnen können Sie auch als Datei hier herunterladen:
-[CMS-Anleitung.docx](https://github.com/user-attachments/files/19759826/CMS.Neutral.docx)
+Sie können hier eine beispielhafte Anleitung für Co-RedakteurInnen aus der App *"Meine Region Linz"* hier herunterladen:
+[CMS Anleitung_Meine Region Linz.docx](https://github.com/user-attachments/files/20243187/CMS.Anleitung_Meine.Region.Linz.docx)
+
 
 # 📚 Kurzanleitung für die Co-Redaktion
 
