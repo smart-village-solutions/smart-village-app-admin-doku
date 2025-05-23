@@ -19,7 +19,7 @@ Willkommen und vielen Dank, dass Sie dabei helfen, das Angebot unserer App mit a
 
 Die Anwendung bündelt alle wichtigen Informationen an einem zentralen Ort – von Nachrichten bis hin zu Veranstaltungshinweisen. Mit Ihrer Unterstützung tragen Sie dazu bei, das vielfältige Angebot im Umfeld sichtbar zu machen.
 
-Wir freuen uns, wenn Sie Veranstaltungen und Termine eigenständig einstellen. Sollten Sie darüber hinaus Themenvorschläge haben oder Personen/Vereine/Institutionen kennen, die für die Gemeinschaft ihrer Region interessant sein könnten, steht Ihnen das Redaktionsteam unter app@vg-linz.de gerne zur Verfügung.
+Wir freuen uns, wenn Sie Veranstaltungen und Termine eigenständig einstellen. Sollten Sie darüber hinaus Themenvorschläge haben oder Personen/Vereine/Institutionen kennen, die für die Gemeinschaft ihrer Region interessant sein könnten, steht Ihnen das Redaktionsteam unter „**<span style='background-color:yellow'>Ihr Redaktionsteam</span>**“ gerne zur Verfügung.
 
 Nun zum „How to“: Die Plattform basiert auf einem Content-Management-System (CMS). In dieser Kurzanleitung erfahren Sie, wie Sie über das CMS Inhalte und Veranstaltungen einfach erstellen und verwalten können.
 
@@ -31,9 +31,9 @@ Hier folgt Ihre Schritt-für-Schritt-Anleitung:
 
 Bitte laden Sie zuerst die „**<span style='background-color:yellow'>Ihre App</span>**“ -App im Apple App-Store oder Google Playstore herunter.
 
-Alternativ können Sie die App auch unter folgendem Link herunterladen:
+Alternativ können Sie die App auch unter folgendem Link herunterladen:„**<span style='background-color:yellow'>(Hier könnten sie Ihren Link einsetzen)</span>**“
 
-(Hier könnten sie Ihren QR-Code einsetzen)
+„**<span style='background-color:yellow'>(Hier könnten sie Ihren QR-Code einsetzen)</span>**“
 
 ---
 
