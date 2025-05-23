@@ -15,13 +15,13 @@ Sie können hier eine beispielhafte Anleitung für Co-RedakteurInnen aus der App
 
 ## So funktioniert das CMS
 
-Willkommen und vielen Dank, dass Sie dabei helfen, das Angebot unserer App mit aktuellen Inhalten zu bereichern.
+Willkommen und vielen Dank, dass Sie dabei helfen, das Angebot unserer App mit aktuellen Inhalten zu bereichern. 
 
 Die Anwendung bündelt alle wichtigen Informationen an einem zentralen Ort – von Nachrichten bis hin zu Veranstaltungshinweisen. Mit Ihrer Unterstützung tragen Sie dazu bei, das vielfältige Angebot im Umfeld sichtbar zu machen.
 
-Wir freuen uns, wenn Sie Veranstaltungen und Termine eigenständig einstellen. Sollten Sie darüber hinaus Themenvorschläge haben oder Personen/Vereine/Institutionen kennen, die für die Gemeinschaft ihrer Region interessant sein könnten, steht Ihnen das Redaktionsteam unter XY gerne zur Verfügung.
+Wir freuen uns, wenn Sie Veranstaltungen und Termine eigenständig einstellen. Sollten Sie darüber hinaus Themenvorschläge haben oder Personen/Vereine/Institutionen kennen, die für die Gemeinschaft ihrer Region interessant sein könnten, steht Ihnen das Redaktionsteam unter app@vg-linz.de gerne zur Verfügung.
 
-Nun zum „How to“: Die Plattform basiert auf einem Content-Management-System (CMS). In dieser Kurzanleitung erfahren Sie, wie Sie über das CMS- Inhalte und Veranstaltungen einfach erstellen und verwalten können.
+Nun zum „How to“: Die Plattform basiert auf einem Content-Management-System (CMS). In dieser Kurzanleitung erfahren Sie, wie Sie über das CMS Inhalte und Veranstaltungen einfach erstellen und verwalten können.
 
 Hier folgt Ihre Schritt-für-Schritt-Anleitung:
 
@@ -29,7 +29,7 @@ Hier folgt Ihre Schritt-für-Schritt-Anleitung:
 
 ## 📲 Schritt 1: App herunterladen
 
-Bitte laden Sie zuerst die „YX“ -App im Apple App-Store oder Google Playstore herunter.
+Bitte laden Sie zuerst die „**<span style='background-color:yellow'>Ihre App</span>**“ -App im Apple App-Store oder Google Playstore herunter.
 
 Alternativ können Sie die App auch unter folgendem Link herunterladen:
 
@@ -42,10 +42,10 @@ Alternativ können Sie die App auch unter folgendem Link herunterladen:
 Der Zugang zum CMS ist ausschließlich für Administratoren und Co-Redakteurinnen- und Redakteure vorgesehen; bitte geben Sie dieses Dokument daher nicht weiter. 
 
 Das Administratorenteam behält sich grundsätzlich das Recht vor, unangemessene Inhalte nach Erstellung zu löschen oder zu ändern. Wir bitten Sie zu beachten, dass wir weder parteipolitische, religiöse, noch private Veranstaltungen oder Nachrichten ohne öffentliches Interesse in die App mit aufnehmen wollen. Für weitere Informationen können Sie sich gerne bei uns melden.
+Um mit der Eingabe Ihrer Inhalte zu beginnen, melden Sie sich mit Ihren Zugangsdaten unter  im CMS an. Dies geht nicht direkt in der App, sondern im Internetbrowser.  Sollten Sie noch keine Zugangsdaten haben, wenden Sie sich bitte an (Ihre Ansprechperson), um diese zu erhalten.
 
-Um mit der Eingabe Ihrer Inhalte zu beginnen, melden Sie sich mit Ihren Zugangsdaten unter XY-Link im CMS an. Dies geht nicht direkt in der App, sondern im Internetbrowser. Sollten Sie noch keine Zugangsdaten haben, wenden Sie sich bitte an XY, um diese zu erhalten.
+Nach dem Login stehen Ihnen die Bereiche „Veranstaltungen“ und „Nachrichten“ (je nach Berechtigung auch „Orte“) zur Verfügung.
 
-Nach dem Login stehen Ihnen die Bereiche „Nachrichten“ und „Veranstaltungen“ zur Verfügung.
 
 ![image](https://github.com/user-attachments/assets/6ddaf382-f6ba-4435-a3a5-e6dcc648c65c)
 
@@ -65,7 +65,6 @@ Starten Sie, indem Sie im Dashboard (auf der Übersichtsseite) „Veranstaltunge
 ![image](https://github.com/user-attachments/assets/f51cec8b-d198-48a9-b426-c912b5ca3bb2)
 
 
-> **Wichtig:** Speichern Sie Ihre Inhalte regelmäßig, um Datenverlust zu vermeiden. Der Speicher-Button befindet sich am unteren Ende der Seite.
 
 ### Veranstaltungsnamen wählen
 
@@ -134,25 +133,51 @@ Falls diverse Kosten anfallen, können Sie diese hier angeben.
 
 ### Dateien hochladen
 
-Fügen Sie hier ein geeignetes Bild für Ihre Veranstaltung hinzu. Ein Bild im Querformat mit einer maximalen Dateigröße von 2 MB eignet sich am besten. Die Pixelgröße sollte bei 600 x 300px liegen, andernfalls könnte das Bild später abgeschnitten erscheinen.
+Fügen Sie hier ein geeignetes Bild für Ihre Veranstaltung hinzu. Ein Bild im Querformat mit einer maximalen Dateigröße von 2 MB eignet sich am besten. Verwenden Sie eine PNG- oder JPEG-Datei. 
+Die Pixelgröße sollte bei 600 x 300px liegen, andernfalls könnte das Bild später abgeschnitten erscheinen.
 
-Wählen Sie „Bild vom Computer hochladen“. Falls kein Veranstaltungsfoto vorhanden ist, können Sie auch ein alternatives Bild, beispielsweise eine Aufnahme Ihrer Einrichtung, verwenden.  
-Bitte geben Sie den/die Rechteinhaber/in des Bildes an und stellen Sie sicher, dass Sie die Berechtigung zur öffentlichen Nutzung des Bildes haben.
+Wählen Sie „Bild vom Computer hochladen“. Falls kein Veranstaltungsbild vorhanden ist, können Sie auch ein alternatives Bild, beispielsweise eine Aufnahme Ihrer Einrichtung, verwenden. 
+Bitte geben Sie den/die Rechteinhaber/in des Bildes an und stellen Sie sicher, dass Sie die Berechtigung zur öffentlichen Nutzung haben.
 
 ![image](https://github.com/user-attachments/assets/c15bea50-08ef-4bb2-a583-1d687352e5d6)
 
+Wenn Sie zusätzliche Bilder (z. B. Plakate) in den Beschreibungstext Ihrer Veranstaltung einfügen möchten, müssen diese Bilder zuvor an anderer Stelle im Internet (z.B. auf Ihrer Website) mit gültigem Link hochgeladen worden sein. Anschließend können Sie das Bild per Kopieren und Einfügen (Strg+C / Strg+V oder Rechtsklick → Kopieren/Einfügen) an der gewünschten Stelle integrieren. Dies kann in der App wie folgt aussehen: 
+
+![image](https://github.com/user-attachments/assets/32f2d116-1dd2-4eda-8713-6e5e3deeceec)
+
+Außerdem können Sie bei Bedarf nicht nur ein Bild anhängen, sondern auch ein Video. Dafür wählen Sie „+ Datei hinzufügen“ aus und als „Art“ dann Video, statt Foto.
+
+![image](https://github.com/user-attachments/assets/f780cbf0-fa0e-4aa0-9f5e-fcadf783072d)
+
+Oben in dem Feld wird dann das iFrame von YouTube eingebaut. Den Link dazu finden Sie bei YouTube, unter ihrem gewünschten Video, bei „Teilen“: 
+![image](https://github.com/user-attachments/assets/6a0bf1b8-c7eb-413d-b113-564b0951ccd9)
+
+Dann „Einbetten“
+![image](https://github.com/user-attachments/assets/0d46a2e7-e3cc-4b41-b6b8-c760a7cc6d11)
+
+Schließlich muss noch der Code kopiert werden:
+![image](https://github.com/user-attachments/assets/2c789caa-5d71-4b82-b3f0-380189ea351a)
+
+Damit das Format passt, müssen Sie dann noch bei „width“ eingeben: „100%“ und height “200“.
 
 ### Speichern
 
-Wenn Sie alles ausgefüllt haben, können Sie auf “Speichern” klicken. Der Button befindet sich am Ende der Seite.
+Wenn Sie alles ausgefüllt haben, können Sie auf “Speichern” klicken. Der Button befindet sich am Ende der Seite. Sobald Sie eine Speicherung vornehmen, wird Ihre Veranstaltung in der App veröffentlicht.
 
 ![image](https://github.com/user-attachments/assets/0bbcff66-6d1b-4296-a5f2-a4bb7f970346)
 
+### Bearbeitung & Sichtbarkeit 
 
 Sie finden nun ihre Veranstaltung in der Übersicht des Redaktionssystems und kurz nach der Speicherung auch bereits in der App.  
-Überprüfen Sie nach jeder Veröffentlichung einer Nachricht oder Veranstaltung in der App, ob alle Angaben sowie die Darstellung Ihrer Inhalte korrekt sind. Falls Sie nachträglich Anpassungen vornehmen möchten, können Sie dies über die Aktion „Bearbeiten“.
+Überprüfen Sie nach jeder Veröffentlichung einer Nachricht oder Veranstaltung in der App, ob alle Angaben sowie die Darstellung Ihrer Inhalte korrekt sind. Falls Sie nachträglich Anpassungen vornehmen möchten, können Sie dies über die Aktion „Bearbeiten“. 
 
-![image](https://github.com/user-attachments/assets/c0296451-d355-42a2-9505-5e408a6a3f90)
+Links neben dem Bearbeitungsbutton können Sie die Sichtbarkeit der Veranstaltung jederzeit deaktivieren/aktivieren. 
+
+![image](https://github.com/user-attachments/assets/df28a44e-fefa-415b-bdb3-15a8db5aa825)
+
+### Kopie erstellen
+
+Sie können Ihre Veranstaltung auch kopieren, falls Sie eine oder mehrere Veranstaltungen mit ähnlichen Angaben veröffentlichen möchten. Gehen Sie hierfür in den Bearbeitungsmodus der Veranstaltung, die sie kopieren möchten. Den Button „Kopie erstellen“ finden Sie direkt am Anfang der Seite. Die Sichtbarkeit der Kopie ist zunächst deaktiviert, damit Sie die entsprechenden Änderungen vornehmen können. Nach der Speicherung können Sie die Veranstaltung in der Übersicht aktivieren.
 
 
 ---
@@ -180,14 +205,31 @@ Wählen Sie die Kategorie Nachrichten aus der vorgegebenen Liste aus.
 
 ### Datei auswählen
 
-Fügen Sie hier ein geeignetes Bild für Ihre Veranstaltung hinzu. Ein Bild im Querformat mit einer maximalen Dateigröße von 2 MB eignet sich am besten. Die Pixelgröße sollte bei 600 x 300px liegen, andernfalls könnte das Bild später abgeschnitten erscheinen.  
+Fügen Sie hier ein geeignetes Bild für Ihre Nachricht hinzu. Ein Bild im Querformat mit einer maximalen Dateigröße von 2 MB eignet sich am besten. Verwenden Sie eine PNG- oder JPEG-Datei Die Pixelgröße sollte bei 600 x 300px liegen, andernfalls könnte das Bild später abgeschnitten erscheinen.  
 
-Wählen Sie „Bild vom Computer hochladen“. Falls kein Veranstaltungsfoto vorhanden ist, können Sie auch ein alternatives Bild, beispielsweise eine Aufnahme Ihrer Einrichtung, verwenden.
+Wählen Sie „Bild vom Computer hochladen“. Falls kein Bild vorhanden ist, können Sie auch ein alternatives Bild, beispielsweise eine Aufnahme Ihrer Einrichtung, verwenden.
 
-Bitte geben Sie den/die Rechteinhaber/in des Bildes an und stellen Sie sicher, dass Sie die Berechtigung zur öffentlichen Nutzung des Bildes haben.
+Bitte geben Sie den/die Rechteinhaber/in des Bildes an und stellen Sie sicher, dass Sie die Berechtigung zur öffentlichen Nutzung haben.
 
 ![image](https://github.com/user-attachments/assets/ced684c7-94a3-4458-8877-f5cff969db3f)
 
+Wenn Sie zusätzliche Bilder (z. B. Plakate) in den Beschreibungstext Ihrer Nachricht einfügen möchten, müssen diese Bilder zuvor an anderer Stelle im Internet (z.B. auf Ihrer Website) mit gültigem Link hochgeladen worden sein. Anschließend können Sie das Bild per Kopieren und Einfügen (Strg+C / Strg+V oder Rechtsklick → Kopieren/Einfügen) an der gewünschten Stelle integrieren. Dies kann in der App wie folgt aussehen: 
+![image](https://github.com/user-attachments/assets/cac2cde9-2219-4113-a5ae-eca93474c57a)
+
+Außerdem können Sie bei Bedarf nicht nur ein Bild anhängen, sondern auch ein Video. Dafür wählen Sie „+ Datei hinzufügen“ aus und als „Art“ dann Video, statt Foto.
+![image](https://github.com/user-attachments/assets/8094e32f-eaf2-4696-8da7-7b53fff29eb0)
+
+Oben in dem Feld wird dann das iFrame von YouTube eingebaut. Den Link dazu finden Sie bei YouTube, unter ihrem gewünschten Video, bei „Teilen“: 
+![image](https://github.com/user-attachments/assets/9b4381c2-cec6-498d-8e72-95a177494429)
+
+Dann „Einbetten“
+![image](https://github.com/user-attachments/assets/c4f38cc6-4170-435f-9630-b94c74adea78)
+
+Schließlich muss noch der Code kopiert werden:
+![image](https://github.com/user-attachments/assets/f1e606b5-bce4-40ca-b31f-a69ed7086844)
+
+
+Damit das Format passt, müssen Sie dann noch bei „width“ eingeben: „100%“ und height “200“.
 
 ### Überschrift wählen
 
@@ -217,14 +259,22 @@ Wenn Sie bereits über einen vorformulierten Text verfügen, können Sie diesen 
 
 ### Nachricht speichern
 
-Wenn Sie alles ausgefüllt haben, können Sie auf “Speichern” klicken. Der Button befindet sich am Ende der Seite.
+Wenn Sie alles ausgefüllt haben, können Sie auf “Speichern” klicken. Der Button befindet sich am Ende der Seite. Sobald Sie eine Speicherung vornehmen, wird Ihre Nachricht in der App veröffentlicht.
 
 ![image](https://github.com/user-attachments/assets/3a26bb05-a7ea-4fdc-971b-e09d7598a986)
 
+### Bearbeitung & Sichtbarkeit 
 
-Sie finden nun ihre Nachricht in der Übersicht des Redaktionssystems und kurz nach der Speicherung auch bereits in der App.
+Sie finden nun ihre Nachricht in der Übersicht des Redaktionssystems und kurz nach der Speicherung auch bereits in der App. Überprüfen Sie nach jeder Veröffentlichung einer Nachricht oder Veranstaltung in der App, ob alle Angaben sowie die Darstellung Ihrer Inhalte korrekt sind. Falls Sie nachträglich Anpassungen vornehmen möchten, können Sie dies über die Aktion „Bearbeiten“. 
 
-Überprüfen Sie nach jeder Veröffentlichung einer Nachricht oder Veranstaltung in der App, ob alle Angaben sowie die Darstellung Ihrer Inhalte korrekt sind.
+Links neben dem Bearbeitungsbutton können Sie die Sichtbarkeit der Nachricht jederzeit deaktivieren/aktivieren.
+
+![image](https://github.com/user-attachments/assets/8a9c80dd-6b2d-49b3-990a-c22cd6eccfde)
+
+
+### Kopie erstellen
+
+Sie können Ihre Nachricht auch kopieren, falls Sie eine oder mehrere Nachrichten mit ähnlichen Angaben veröffentlichen möchten. Gehen Sie hierfür in den Bearbeitungsmodus der Nachricht, die sie kopieren möchten. Den Button „Kopie erstellen“ finden Sie direkt am Anfang der Seite. Die Sichtbarkeit der Kopie ist zunächst deaktiviert, damit Sie die entsprechenden Änderungen vornehmen können. Nach der Speicherung können Sie die Nachricht in der Übersicht aktivieren..
 
 ---
 
@@ -305,22 +355,42 @@ Falls diverse Kosten anfallen, können Sie diese hier angeben.
 
 ### Dateien hochladen
 
-Fügen Sie hier ein geeignetes Bild für Ihre Veranstaltung hinzu. Ein Bild im Querformat mit einer maximalen Dateigröße von 2 MB eignet sich am besten. Die Pixelgröße sollte bei 600 x 300px liegen, andernfalls könnte das Bild später abgeschnitten erscheinen.  
+fügen Sie hier ein geeignetes Bild für Ihren Ort hinzu. Ein Bild im Querformat mit einer maximalen Dateigröße von 2 MB eignet sich am besten. Verwenden Sie eine PNG- oder JPEG-Datei Die Pixelgröße sollte bei 600 x 300px liegen, andernfalls könnte das Bild später abgeschnitten erscheinen.  
 
-Wählen Sie „Bild vom Computer hochladen“. Falls kein Veranstaltungsfoto vorhanden ist, können Sie auch ein alternatives Bild, beispielsweise eine Aufnahme Ihrer Einrichtung, verwenden.
+Wählen Sie „Bild vom Computer hochladen“. Falls kein Bild vorhanden ist, können Sie auch ein alternatives Bild, beispielsweise eine Aufnahme Ihrer Einrichtung, verwenden.
 
-Bitte geben Sie den/die Rechteinhaber/in des Bildes an und stellen Sie sicher, dass Sie die Berechtigung zur öffentlichen Nutzung des Bildes haben.
+Bitte geben Sie den/die Rechteinhaber/in des Bildes an und stellen Sie sicher, dass Sie die Berechtigung zur öffentlichen Nutzung haben. 
 
 ![image](https://github.com/user-attachments/assets/998389e4-55da-466f-a189-b20ead3167b6)
+
+Wenn Sie zusätzliche Bilder (z. B. Plakate) in den Beschreibungstext Ihres Ortes einfügen möchten, müssen diese Bilder zuvor an anderer Stelle im Internet (z.B. auf Ihrer Website) mit gültigem Link hochgeladen worden sein. Anschließend können Sie das Bild per Kopieren und Einfügen (Strg+C / Strg+V oder Rechtsklick → Kopieren/Einfügen) an der gewünschten Stelle integrieren. Dies kann in der App wie folgt aussehen: 
+![image](https://github.com/user-attachments/assets/8690fff6-4f69-48e4-b3a3-a02901e99fc0)
+
+Außerdem können Sie bei Bedarf nicht nur ein Bild anhängen, sondern auch ein Video. Dafür wählen Sie „+ Datei hinzufügen“ aus und als „Art“ dann Video, statt Foto.
+![image](https://github.com/user-attachments/assets/28a33101-b782-4ef6-b70c-e822a2d717b4)
+
+Oben in dem Feld wird dann das iFrame von YouTube eingebaut. Den Link dazu finden Sie bei YouTube, unter ihrem gewünschten Video, bei „Teilen“: 
+![image](https://github.com/user-attachments/assets/942d017c-0616-4d48-b31e-30170d8f8d05)
+
+Dann „Einbetten“
+![image](https://github.com/user-attachments/assets/52a29d86-d598-4135-b425-2b74bce7df55)
+
+
+Schließlich muss noch der Code kopiert werden:
+![image](https://github.com/user-attachments/assets/c4826ee3-1f3a-4a4c-b732-559b16a682d6)
+
+Damit das Format passt, müssen Sie dann noch bei „width“ eingeben: „100%“ und height “200“.
 
 
 ### Speichern
 
-Sofern Sie alles ausgefüllt haben, können Sie auf Speichern klicken. Der Button befindet sich am Ende der Seite.
+Wenn Sie alles ausgefüllt haben, können Sie auf “Speichern” klicken. Der Button befindet sich am Ende der Seite. Sobald Sie eine Speicherung vornehmen, wird Ihr Ort in der App veröffentlicht.
 
 ![image](https://github.com/user-attachments/assets/08910a47-4931-4ccd-b425-72a2cf831111)
 
 
-Sie finden nun ihren Ort in der Übersicht des Redaktionssystems und kurz nach der Speicherung auch bereits in der App.
+### Bearbeitung & Sichtbarkeit 
 
-Überprüfen Sie auch hier in der App, ob alle Angaben sowie die Darstellung Ihrer Inhalte korrekt sind.
+Sie finden nun ihren Ort in der Übersicht des Redaktionssystems und kurz nach der Speicherung auch bereits in der App. Überprüfen Sie nach jeder Veröffentlichung eines Ortes in der App, ob alle Angaben sowie die Darstellung Ihrer Inhalte korrekt sind. Falls Sie nachträglich Anpassungen vornehmen möchten, können Sie dies über die Aktion „Bearbeiten“. 
+
+Links neben dem Bearbeitungsbutton können Sie die Sichtbarkeit des Ortes jederzeit deaktivieren/aktivieren. 
