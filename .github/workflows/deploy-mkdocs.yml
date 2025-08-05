@@ -1,32 +1,30 @@
-# .github/workflows/deploy-mkdocs.yml
 name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
     branches:
-      - main
-
-permissions:
-  contents: write
+      - main # Oder dein Haupt-Branch, z.B. "master"
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Erlaubnis, um Dateien in den gh-pages Branch zu schreiben
+
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material
+          pip install mkdocs-material
+          pip install js-yaml # Laut deiner package.json
+          # Füge hier weitere Abhängigkeiten hinzu, falls du welche hast
 
-      - name: Build and Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+      - name: Deploy documentation
+        run: mkdocs gh-deploy --force
