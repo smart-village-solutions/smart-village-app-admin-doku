@@ -9,20 +9,36 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Erlaubnis, um Dateien in den gh-pages Branch zu schreiben
+      contents: write # Erlaubnis für den Checkout-Schritt
+      pages: write    # Erlaubnis für das Deployment zu GitHub Pages
+      id-token: write # Erlaubnis für die Authentifizierung mit dem Deploy-Key
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Install Python and dependencies
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+          cache: pip # Nutzt Caching für die Abhängigkeiten, beschleunigt den Build
 
-      - name: Install dependencies
-        run: |
-          pip install mkdocs-material
+      - name: Install MkDocs and Theme
+        run: pip install mkdocs-material
 
-      - name: Deploy documentation
-        run: mkdocs gh-deploy --force
+      - name: Build MkDocs site
+        run: mkdocs build --clean --site-dir site # --clean sorgt für einen sauberen Build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'site' # Lädt den 'site'-Ordner als Artifact hoch
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # Offizielle Action für das Deployment
