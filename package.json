@@ -1,0 +1,27 @@
+{
+  "name": "smart-village-app-admin-doku",
+  "version": "1.0.0",
+  "description": "Dokumentation für App-Admins",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smart-village-solutions/smart-village-app-admin-doku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/smart-village-solutions/smart-village-app-admin-doku/issues"
+  },
+  "homepage": "https://github.com/smart-village-solutions/smart-village-app-admin-doku#readme",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

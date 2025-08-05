@@ -1,0 +1,130 @@
+site_name: Dokumentation für die Smart Village App
+site_url: https://smart-village-solutions.github.io/smart-village-app-admin-doku
+site_description: Dokumentation zur Konfiguration und Administration der Smart Village App und ihrer Module für Administrator:innen in Städten und Gemeinden.
+site_author: Smart Village Solutions
+
+theme:
+  name: material
+  features:
+    - navigation.sections     # Gruppierte Sidebar (empfohlen)
+    - navigation.instant      # Kein Seiten-Reload beim Wechsel (schneller)
+    - toc.integrate           # Inhaltsverzeichnis rechts integrieren
+    - content.code.copy       # "Copy"-Button bei Codeblöcken
+    - content.action.edit     # (falls du Edit-Links willst)
+    - content.action.view     # (z. B. GitHub-Link zum View)
+
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: teal
+      toggle:
+
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+language: de
+
+extra_css:
+  - stylesheets/custom.css
+
+nav:
+  - Einführung: index.md
+
+  - Willkommen:
+      - Für wen ist diese Doku?: einleitung/zielgruppen.md
+      - Was ist die Smart Village App?: einleitung/was-ist-die-app.md
+      - Systemübersicht & Komponenten: einleitung/systemuebersicht.md
+      - Einstieg nach Rolle: einleitung/rollen-uebersicht.md
+
+  - Für Entscheider:innen:
+      - Warum eine Smart Village App?: kommunen/warum-app.md
+      - Projektstart & Checkliste: kommunen/projektstart.md
+      - Betriebsmodelle & Finanzierung: kommunen/betrieb-modelle.md
+      - Argumente für den Rat oder die Verwaltung: kommunen/argumente.md
+      - FAQ für Entscheider:innen: kommunen/faq.md
+
+  - Für Administrator:innen:
+      - Konfiguration der App: admins/konfiguration.md
+      - Rollen & Rechte verwalten: admins/rollenrechte.md
+      - Betrieb & technischer Support: admins/support.md
+      - Sicherheit & Datenschutz: admins/datenschutz.md
+      - Lizenzinformationen in der App integrieren: admins/lizenz.md
+      - FAQ für Admins: admins/faq.md
+
+  - Für Redakteur:innen:
+      - CMS-Login & Einstieg: redaktion/cms-login.md
+      - Inhalte bearbeiten – Schritt für Schritt: redaktion/inhalte-bearbeiten.md
+      - Wie erstelle ich …?:
+          - Push-Nachricht: redaktion/wie-erstelle-ich/push.md
+          - Veranstaltung: redaktion/wie-erstelle-ich/veranstaltung.md
+          - Seite/Kategorie: redaktion/wie-erstelle-ich/seite.md
+          - Feedbackformular: redaktion/wie-erstelle-ich/feedback.md
+          - Datei/Download: redaktion/wie-erstelle-ich/datei.md
+      - Medien & Barrierefreiheit: redaktion/medien-barrierefreiheit.md
+      - Redaktionelle Tipps & Best Practices: redaktion/best-practices.md
+
+  - Module im Detail:
+      - Mängelmelder: module/maengelmelder.md
+      - Veranstaltungskalender: module/veranstaltungen.md
+      - Push-Nachrichten: module/push.md
+      - Seiten & Inhalte: module/inhalteseiten.md
+      - Feedback & Umfragen: module/feedback.md
+      - Lokale Dienste & Feeds: module/feeds.md
+      - Beteiligung & Voting: module/beteiligung.md
+      - Kartendarstellung: module/karten.md
+
+  - Systemkomponenten:
+      - React Native App (Frontend): system/app.md
+      - Rails App-Server (Backend/API): system/server.md
+      - GraphQL-API: system/graphql.md
+      - CMS (GUI): system/cms.md
+      - Keycloak (Auth): system/keycloak.md
+      - S3 / Minio (Dateispeicher): system/minio.md
+      - MapTiles Server: system/maptiles.md
+      - Monitoring: system/monitoring.md
+      - Datenimporte & Schnittstellen: system/importer.md
+
+  - Für Entwickler:innen & Partner:
+      - Lokale Entwicklung: dev/setup.md
+      - Repos & Branches: dev/repos.md
+      - GraphQL-Abfragen & Mutationen: dev/graphql.md
+      - Authentifizierung: dev/auth.md
+      - Hosting-Setup (Docker etc.): dev/hosting.md
+      - Sicherheit & Datenschutz: dev/datenschutz.md
+      - API-Schnittstellen & Webhooks: dev/api.md
+
+  - So arbeiten wir im Projekt:
+      - Unser Ansatz & Prinzipien: projekt/philosophie.md
+      - Projektablauf & Meilensteine: projekt/projektablauf.md
+      - Rollen im Projekt & Zuständigkeiten: projekt/rollen.md
+      - Unsere Tools & Methoden: projekt/tools.md
+      - Beteiligung & Community: projekt/community.md
+      - Onboarding neuer Mitwirkender: projekt/onboarding.md
+      - Referenzen: projekt/referenzen.md
+      - Partner & Förderer: projekt/partner.md
+
+  - Releases & Changelog:
+      - Aktuelle Version: changelog/aktuell.md
+      - Ältere Versionen: changelog/archiv.md
+      - Hinweise für Admins: changelog/hinweise.md
+
+  - FAQ & Glossar:
+      - Allgemeine Fragen: faq/allgemein.md
+      - Technische Fragen: faq/technik.md
+      - Glossar: faq/glossar.md
+
+  - Kontakt & Hilfe:
+      - Support-Kanäle: kontakt/support.md
+      - Links & Ressourcen: kontakt/links.md
