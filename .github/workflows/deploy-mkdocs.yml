@@ -23,8 +23,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install mkdocs-material
-          pip install js-yaml # Laut deiner package.json
-          # Füge hier weitere Abhängigkeiten hinzu, falls du welche hast
 
       - name: Deploy documentation
         run: mkdocs gh-deploy --force
