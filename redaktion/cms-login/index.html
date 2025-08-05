@@ -1,0 +1,2600 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Dokumentation zur Konfiguration und Administration der Smart Village App und ihrer Module für Administrator:innen in Städten und Gemeinden.">
+      
+      
+        <meta name="author" content="Smart Village Solutions">
+      
+      
+        <link rel="canonical" href="https://smart-village-solutions.github.io/smart-village-app-admin-doku/redaktion/cms-login/">
+      
+      
+        <link rel="prev" href="../../admins/faq/">
+      
+      
+        <link rel="next" href="../inhalte-bearbeiten/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>CMS-Login & Einstieg - Dokumentation für die Smart Village App</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cms-login-einstieg" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../.." title="Dokumentation für die Smart Village App" class="md-header__button md-logo" aria-label="Dokumentation für die Smart Village App" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dokumentation für die Smart Village App
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CMS-Login & Einstieg
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Dokumentation für die Smart Village App" class="md-nav__button md-logo" aria-label="Dokumentation für die Smart Village App" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Dokumentation für die Smart Village App
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Einführung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Willkommen
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Willkommen
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../einleitung/zielgruppen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Für wen ist diese Doku?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../einleitung/was-ist-die-app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Was ist die Smart Village App?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../einleitung/systemuebersicht/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Systemübersicht & Komponenten
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../einleitung/rollen-uebersicht/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Einstieg nach Rolle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Für Entscheider:innen
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Für Entscheider:innen
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kommunen/warum-app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Warum eine Smart Village App?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kommunen/projektstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Projektstart & Checkliste
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kommunen/betrieb-modelle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Betriebsmodelle & Finanzierung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kommunen/argumente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Argumente für den Rat oder die Verwaltung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kommunen/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ für Entscheider:innen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Für Administrator:innen
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Für Administrator:innen
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../admins/konfiguration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Konfiguration der App
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../admins/rollenrechte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rollen & Rechte verwalten
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../admins/support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Betrieb & technischer Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../admins/datenschutz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sicherheit & Datenschutz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../admins/lizenz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lizenzinformationen in der App integrieren
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../admins/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ für Admins
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Für Redakteur:innen
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Für Redakteur:innen
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    CMS-Login & Einstieg
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inhalte-bearbeiten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inhalte bearbeiten – Schritt für Schritt
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Wie erstelle ich …?
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Wie erstelle ich …?
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wie-erstelle-ich/push/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Push-Nachricht
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wie-erstelle-ich/veranstaltung/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Veranstaltung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wie-erstelle-ich/seite/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Seite/Kategorie
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wie-erstelle-ich/feedback/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feedbackformular
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wie-erstelle-ich/datei/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Datei/Download
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../medien-barrierefreiheit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Medien & Barrierefreiheit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../best-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Redaktionelle Tipps & Best Practices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Module im Detail
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Module im Detail
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module/maengelmelder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mängelmelder
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module/veranstaltungen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Veranstaltungskalender
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module/push/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Push-Nachrichten
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module/inhalteseiten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Seiten & Inhalte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module/feedback/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feedback & Umfragen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module/feeds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lokale Dienste & Feeds
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module/beteiligung/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Beteiligung & Voting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module/karten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kartendarstellung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Systemkomponenten
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Systemkomponenten
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system/app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    React Native App (Frontend)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system/server/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rails App-Server (Backend/API)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system/graphql/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GraphQL-API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system/cms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CMS (GUI)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system/keycloak/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Keycloak (Auth)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system/minio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S3 / Minio (Dateispeicher)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system/maptiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MapTiles Server
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system/monitoring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Monitoring
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../system/importer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Datenimporte & Schnittstellen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Für Entwickler:innen & Partner
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Für Entwickler:innen & Partner
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dev/setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lokale Entwicklung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dev/repos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Repos & Branches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dev/graphql/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GraphQL-Abfragen & Mutationen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dev/auth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Authentifizierung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dev/hosting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hosting-Setup (Docker etc.)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dev/datenschutz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sicherheit & Datenschutz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dev/api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API-Schnittstellen & Webhooks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    So arbeiten wir im Projekt
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            So arbeiten wir im Projekt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projekt/philosophie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unser Ansatz & Prinzipien
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projekt/projektablauf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Projektablauf & Meilensteine
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projekt/rollen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rollen im Projekt & Zuständigkeiten
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projekt/tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unsere Tools & Methoden
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projekt/community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Beteiligung & Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projekt/onboarding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Onboarding neuer Mitwirkender
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projekt/referenzen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Referenzen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projekt/partner/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Partner & Förderer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Releases & Changelog
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Releases & Changelog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/aktuell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aktuelle Version
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/archiv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ältere Versionen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/hinweise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hinweise für Admins
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    FAQ & Glossar
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ & Glossar
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/allgemein/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Allgemeine Fragen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/technik/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Technische Fragen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/glossar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Kontakt & Hilfe
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Kontakt & Hilfe
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kontakt/support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support-Kanäle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kontakt/links/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Links & Ressourcen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="cms-login-einstieg">CMS-Login &amp; Einstieg</h1>
+<p>Under construction</p>
+<p>Sie können hier eine beispielhafte Anleitung für Co-RedakteurInnen aus der App <em>"Meine Region Linz"</em> hier herunterladen:
+<a href="https://github.com/user-attachments/files/20243187/CMS.Anleitung_Meine.Region.Linz.docx">CMS Anleitung_Meine Region Linz.docx</a></p>
+<h1 id="kurzanleitung-fur-die-co-redaktion">📚 Kurzanleitung für die Co-Redaktion</h1>
+<h2 id="so-funktioniert-das-cms">So funktioniert das CMS</h2>
+<p>Willkommen und vielen Dank, dass Sie dabei helfen, das Angebot unserer App mit aktuellen Inhalten zu bereichern.</p>
+<p>Die Anwendung bündelt alle wichtigen Informationen an einem zentralen Ort – von Nachrichten bis hin zu Veranstaltungshinweisen. Mit Ihrer Unterstützung tragen Sie dazu bei, das vielfältige Angebot im Umfeld sichtbar zu machen.</p>
+<p>Wir freuen uns, wenn Sie Veranstaltungen und Termine eigenständig einstellen. Sollten Sie darüber hinaus Themenvorschläge haben oder Personen/Vereine/Institutionen kennen, die für die Gemeinschaft ihrer Region interessant sein könnten, steht Ihnen das Redaktionsteam unter „<strong><span style='background-color:yellow'>Ihr Redaktionsteam</span></strong>“ gerne zur Verfügung.</p>
+<p>Nun zum „How to“: Die Plattform basiert auf einem Content-Management-System (CMS). In dieser Kurzanleitung erfahren Sie, wie Sie über das CMS Inhalte und Veranstaltungen einfach erstellen und verwalten können.</p>
+<p>Hier folgt Ihre Schritt-für-Schritt-Anleitung:</p>
+<hr />
+<h2 id="schritt-1-app-herunterladen">📲 Schritt 1: App herunterladen</h2>
+<p>Bitte laden Sie zuerst die „<strong><span style='background-color:yellow'>Ihre App</span></strong>“ -App im Apple App-Store oder Google Playstore herunter.</p>
+<p>Alternativ können Sie die App auch unter folgendem Link herunterladen:„<strong><span style='background-color:yellow'>(Hier könnten sie Ihren Link einsetzen)</span></strong>“</p>
+<p>„<strong><span style='background-color:yellow'>(Hier könnten sie Ihren QR-Code einsetzen)</span></strong>“</p>
+<hr />
+<h2 id="schritt-2-anmeldung-im-cms">🔐 Schritt 2: Anmeldung im CMS</h2>
+<p>Der Zugang zum CMS ist ausschließlich für Administratoren und Co-Redakteurinnen- und Redakteure vorgesehen; bitte geben Sie dieses Dokument daher nicht weiter.</p>
+<p>Das Administratorenteam behält sich grundsätzlich das Recht vor, unangemessene Inhalte nach Erstellung zu löschen oder zu ändern. Wir bitten Sie zu beachten, dass wir weder parteipolitische, religiöse, noch private Veranstaltungen oder Nachrichten ohne öffentliches Interesse in die App mit aufnehmen wollen. Für weitere Informationen können Sie sich gerne bei uns melden.
+Um mit der Eingabe Ihrer Inhalte zu beginnen, melden Sie sich mit Ihren Zugangsdaten unter  im CMS an. Dies geht nicht direkt in der App, sondern im Internetbrowser.  Sollten Sie noch keine Zugangsdaten haben, wenden Sie sich bitte an (Ihre Ansprechperson), um diese zu erhalten.</p>
+<p>Nach dem Login stehen Ihnen die Bereiche „Veranstaltungen“ und „Nachrichten“ (je nach Berechtigung auch „Orte“) zur Verfügung.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/6ddaf382-f6ba-4435-a3a5-e6dcc648c65c" /></p>
+<hr />
+<h2 id="schritt-31-veranstaltungen-erstellen">🗓️ Schritt 3.1: Veranstaltungen erstellen</h2>
+<p>Der unteren Abbildung können Sie entnehmen, wie eine Veranstaltung grundsätzlich aufgebaut ist und wie sie später in der App dargestellt werden könnte.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/c9a9880f-e4b6-4a3e-847b-aa5459d0c0e4" /></p>
+<p>Starten Sie, indem Sie im Dashboard (auf der Übersichtsseite) „Veranstaltungen“ auswählen. Klicken Sie dann oben rechts auf „Neue Veranstaltung erstellen.“</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/f51cec8b-d198-48a9-b426-c912b5ca3bb2" /></p>
+<h3 id="veranstaltungsnamen-wahlen">Veranstaltungsnamen wählen</h3>
+<p>Geben Sie ihrer Veranstaltung einen passenden Namen. Hierfür können Sie die Dropdown-Möglichkeit benutzen. Sie wird Ihnen die Nutzung erleichtern gleiche oder ähnliche Daten einzutragen.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/73b9c87e-87ed-458f-a0ce-b1485cee5357" /></p>
+<h3 id="beschreibung-wahlen">Beschreibung wählen</h3>
+<p>Beschreiben Sie in kurzen Sätzen den Inhalt und/ oder den Ablauf Ihrer Veranstaltung. Ort und Zeit können Sie auslassen, da diese im späteren Verlauf angegeben werden.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/99ac2b89-2d79-4879-bbd9-f6dcb3adc4c9" /></p>
+<h3 id="kategorie-auswahlen">Kategorie auswählen</h3>
+<p>Wählen Sie eine oder mehrere passende Kategorien aus, die in der Liste vorgegeben sind.
+Fehlt Ihnen eine Kategorie, kann diese durch das Redaktionsteam hinzugefügt werden. Bitte wenden Sie sich auch hierzu an „Ihr Redaktionsteam“.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/fe92f16c-a087-42f7-8891-4cd4059bc5d1" /></p>
+<h3 id="veranstaltungsdatum-wahlen">Veranstaltungsdatum wählen</h3>
+<p>Wählen Sie das Datum aus und geben Sie eine Start- und Endzeit an. Falls die Veranstaltung regelmäßig stattfindet, z. B. wöchentlich, können Sie „Veranstaltung wiederholen“ auswählen.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/1f0f74ab-e9be-4744-9c67-4be2c5478440" /></p>
+<h3 id="veranstaltungsort-wahlen">Veranstaltungsort wählen</h3>
+<p>Wählen Sie den Ort ihrer Veranstaltung, sowie Straße, Postleitzahl und Stadt.
+Die Dropdown-Möglichkeit erleichtert die Auswahl für Sie, damit Sie den Ort nicht immer neu angeben müssen.
+Sie können auch ein Pin setzen, wodurch Latitude und Longitude automatisch ausgefüllt werden.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/c7ba28ef-8e53-4d40-8b16-ecfe1922b1b9" /></p>
+<h3 id="veranstalterin-wahlen">Veranstalter/in wählen</h3>
+<p>Tragen Sie hier den/die Veranstalter/in ein: Name, Erreichbarkeit und sonstige gegebene Informationen.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/617da236-3fd7-4a64-bba2-fd5aaccbca06" /></p>
+<h3 id="ansprechpartnerin-wahlen">Ansprechpartner/in wählen</h3>
+<p>Sollte der/die Ansprechpartner/in vom Veranstalter abweichen, fügen Sie diese hinzu.</p>
+<h3 id="links-hinzufugen">Links hinzufügen</h3>
+<p>Hier können Sie einen Link hinzufügen und auf eine Homepage verweisen.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/0ac0930a-add4-4584-998f-4535a9926c2f" /></p>
+<h3 id="preise-angeben">Preise angeben</h3>
+<p>Falls diverse Kosten anfallen, können Sie diese hier angeben.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/7dad48ce-9aea-4bed-a495-3ab3d9f8f110" /></p>
+<h3 id="dateien-hochladen">Dateien hochladen</h3>
+<p>Fügen Sie hier ein geeignetes Bild für Ihre Veranstaltung hinzu. Ein Bild im Querformat mit einer maximalen Dateigröße von 2 MB eignet sich am besten. Verwenden Sie eine PNG- oder JPEG-Datei.
+Die Pixelgröße sollte bei 600 x 300px liegen, andernfalls könnte das Bild später abgeschnitten erscheinen.</p>
+<p>Wählen Sie „Bild vom Computer hochladen“. Falls kein Veranstaltungsbild vorhanden ist, können Sie auch ein alternatives Bild, beispielsweise eine Aufnahme Ihrer Einrichtung, verwenden.
+Bitte geben Sie den/die Rechteinhaber/in des Bildes an und stellen Sie sicher, dass Sie die Berechtigung zur öffentlichen Nutzung haben.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/c15bea50-08ef-4bb2-a583-1d687352e5d6" /></p>
+<p>Wenn Sie zusätzliche Bilder (z. B. Plakate) in den Beschreibungstext Ihrer Veranstaltung einfügen möchten, müssen diese Bilder zuvor an anderer Stelle im Internet (z.B. auf Ihrer Website) mit gültigem Link hochgeladen worden sein. Anschließend können Sie das Bild per Kopieren und Einfügen (Strg+C / Strg+V oder Rechtsklick → Kopieren/Einfügen) an der gewünschten Stelle integrieren. Dies kann in der App wie folgt aussehen:</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/32f2d116-1dd2-4eda-8713-6e5e3deeceec" /></p>
+<p>Außerdem können Sie bei Bedarf nicht nur ein Bild anhängen, sondern auch ein Video. Dafür wählen Sie „+ Datei hinzufügen“ aus und als „Art“ dann Video, statt Foto.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/f780cbf0-fa0e-4aa0-9f5e-fcadf783072d" /></p>
+<p>Oben in dem Feld wird dann das iFrame von YouTube eingebaut. Den Link dazu finden Sie bei YouTube, unter ihrem gewünschten Video, bei „Teilen“:
+<img alt="image" src="https://github.com/user-attachments/assets/6a0bf1b8-c7eb-413d-b113-564b0951ccd9" /></p>
+<p>Dann „Einbetten“
+<img alt="image" src="https://github.com/user-attachments/assets/0d46a2e7-e3cc-4b41-b6b8-c760a7cc6d11" /></p>
+<p>Schließlich muss noch der Code kopiert werden:
+<img alt="image" src="https://github.com/user-attachments/assets/2c789caa-5d71-4b82-b3f0-380189ea351a" /></p>
+<p>Damit das Format passt, müssen Sie dann noch bei „width“ eingeben: „100%“ und height “200“.</p>
+<h3 id="speichern">Speichern</h3>
+<p>Wenn Sie alles ausgefüllt haben, können Sie auf “Speichern” klicken. Der Button befindet sich am Ende der Seite. Sobald Sie eine Speicherung vornehmen, wird Ihre Veranstaltung in der App veröffentlicht.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/0bbcff66-6d1b-4296-a5f2-a4bb7f970346" /></p>
+<h3 id="bearbeitung-sichtbarkeit">Bearbeitung &amp; Sichtbarkeit</h3>
+<p>Sie finden nun ihre Veranstaltung in der Übersicht des Redaktionssystems und kurz nach der Speicherung auch bereits in der App.
+Überprüfen Sie nach jeder Veröffentlichung einer Nachricht oder Veranstaltung in der App, ob alle Angaben sowie die Darstellung Ihrer Inhalte korrekt sind. Falls Sie nachträglich Anpassungen vornehmen möchten, können Sie dies über die Aktion „Bearbeiten“.</p>
+<p>Links neben dem Bearbeitungsbutton können Sie die Sichtbarkeit der Veranstaltung jederzeit deaktivieren/aktivieren.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/df28a44e-fefa-415b-bdb3-15a8db5aa825" /></p>
+<h3 id="kopie-erstellen">Kopie erstellen</h3>
+<p>Sie können Ihre Veranstaltung auch kopieren, falls Sie eine oder mehrere Veranstaltungen mit ähnlichen Angaben veröffentlichen möchten. Gehen Sie hierfür in den Bearbeitungsmodus der Veranstaltung, die sie kopieren möchten. Den Button „Kopie erstellen“ finden Sie direkt am Anfang der Seite. Die Sichtbarkeit der Kopie ist zunächst deaktiviert, damit Sie die entsprechenden Änderungen vornehmen können. Nach der Speicherung können Sie die Veranstaltung in der Übersicht aktivieren.</p>
+<hr />
+<h2 id="schritt-32-nachrichten-anlegen">📰 Schritt 3.2: Nachrichten anlegen</h2>
+<p>Im Nachrichtenbereich ist es möglich, aktuelle Nachrichten, Nachberichte, Terminankündigungen, Geschehnisse aus der Umgebung usw. zu veröffentlichen.</p>
+<p>Der unteren Abbildung können Sie entnehmen, wie eine Nachricht grundsätzlich aufgebaut ist und wie sie später in der App dargestellt werden könnte.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/ee775b07-7009-4c41-b504-539ef8e43170" /></p>
+<p>Wählen Sie <strong>Nachrichten neu anlegen.</strong></p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/f78da652-1c37-4825-acac-d0605b591e42" /></p>
+<h3 id="kategorie-auswahlen_1">Kategorie auswählen</h3>
+<p>Wählen Sie die Kategorie Nachrichten aus der vorgegebenen Liste aus.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/24fd0986-24cd-4bb0-a52b-41d16ed90410" /></p>
+<h3 id="datei-auswahlen">Datei auswählen</h3>
+<p>Fügen Sie hier ein geeignetes Bild für Ihre Nachricht hinzu. Ein Bild im Querformat mit einer maximalen Dateigröße von 2 MB eignet sich am besten. Verwenden Sie eine PNG- oder JPEG-Datei Die Pixelgröße sollte bei 600 x 300px liegen, andernfalls könnte das Bild später abgeschnitten erscheinen.</p>
+<p>Wählen Sie „Bild vom Computer hochladen“. Falls kein Bild vorhanden ist, können Sie auch ein alternatives Bild, beispielsweise eine Aufnahme Ihrer Einrichtung, verwenden.</p>
+<p>Bitte geben Sie den/die Rechteinhaber/in des Bildes an und stellen Sie sicher, dass Sie die Berechtigung zur öffentlichen Nutzung haben.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/ced684c7-94a3-4458-8877-f5cff969db3f" /></p>
+<p>Wenn Sie zusätzliche Bilder (z. B. Plakate) in den Beschreibungstext Ihrer Nachricht einfügen möchten, müssen diese Bilder zuvor an anderer Stelle im Internet (z.B. auf Ihrer Website) mit gültigem Link hochgeladen worden sein. Anschließend können Sie das Bild per Kopieren und Einfügen (Strg+C / Strg+V oder Rechtsklick → Kopieren/Einfügen) an der gewünschten Stelle integrieren. Dies kann in der App wie folgt aussehen:
+<img alt="image" src="https://github.com/user-attachments/assets/cac2cde9-2219-4113-a5ae-eca93474c57a" /></p>
+<p>Außerdem können Sie bei Bedarf nicht nur ein Bild anhängen, sondern auch ein Video. Dafür wählen Sie „+ Datei hinzufügen“ aus und als „Art“ dann Video, statt Foto.
+<img alt="image" src="https://github.com/user-attachments/assets/8094e32f-eaf2-4696-8da7-7b53fff29eb0" /></p>
+<p>Oben in dem Feld wird dann das iFrame von YouTube eingebaut. Den Link dazu finden Sie bei YouTube, unter ihrem gewünschten Video, bei „Teilen“:
+<img alt="image" src="https://github.com/user-attachments/assets/9b4381c2-cec6-498d-8e72-95a177494429" /></p>
+<p>Dann „Einbetten“
+<img alt="image" src="https://github.com/user-attachments/assets/c4f38cc6-4170-435f-9630-b94c74adea78" /></p>
+<p>Schließlich muss noch der Code kopiert werden:
+<img alt="image" src="https://github.com/user-attachments/assets/f1e606b5-bce4-40ca-b31f-a69ed7086844" /></p>
+<p>Damit das Format passt, müssen Sie dann noch bei „width“ eingeben: „100%“ und height “200“.</p>
+<h3 id="uberschrift-wahlen">Überschrift wählen</h3>
+<p>Tragen Sie hier den Titel Ihrer Nachricht ein.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/2419466d-0b48-492d-9263-c4748a488bdc" /></p>
+<h3 id="einleitung-wahlen">Einleitung wählen</h3>
+<p>Schreiben Sie eine kurze Einleitung der Nachricht, möglichst in einem prägnanten Satz.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/8595788b-f383-41c3-a41b-32d04d4b21f3" /></p>
+<h3 id="text-wahlen">Text wählen</h3>
+<p>Hier ist es möglich, den Nachrichtentext einzufügen. Im Text können auch Links zu Websites oder Download-Dokumenten hinzugefügt werden.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/6c9eb148-4f90-4849-851b-a416003b0f19" /></p>
+<p>Wenn Sie bereits über einen vorformulierten Text verfügen, können Sie diesen direkt in das Textfeld kopieren. Im Textfeld-Menü haben Sie die Möglichkeit, die Formatierung entsprechend anzupassen.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/11a54f3c-756c-46f5-b6b0-ecbd5808fd7b" /></p>
+<h3 id="nachricht-speichern">Nachricht speichern</h3>
+<p>Wenn Sie alles ausgefüllt haben, können Sie auf “Speichern” klicken. Der Button befindet sich am Ende der Seite. Sobald Sie eine Speicherung vornehmen, wird Ihre Nachricht in der App veröffentlicht.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/3a26bb05-a7ea-4fdc-971b-e09d7598a986" /></p>
+<h3 id="bearbeitung-sichtbarkeit_1">Bearbeitung &amp; Sichtbarkeit</h3>
+<p>Sie finden nun ihre Nachricht in der Übersicht des Redaktionssystems und kurz nach der Speicherung auch bereits in der App. Überprüfen Sie nach jeder Veröffentlichung einer Nachricht oder Veranstaltung in der App, ob alle Angaben sowie die Darstellung Ihrer Inhalte korrekt sind. Falls Sie nachträglich Anpassungen vornehmen möchten, können Sie dies über die Aktion „Bearbeiten“.</p>
+<p>Links neben dem Bearbeitungsbutton können Sie die Sichtbarkeit der Nachricht jederzeit deaktivieren/aktivieren.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/8a9c80dd-6b2d-49b3-990a-c22cd6eccfde" /></p>
+<h3 id="kopie-erstellen_1">Kopie erstellen</h3>
+<p>Sie können Ihre Nachricht auch kopieren, falls Sie eine oder mehrere Nachrichten mit ähnlichen Angaben veröffentlichen möchten. Gehen Sie hierfür in den Bearbeitungsmodus der Nachricht, die sie kopieren möchten. Den Button „Kopie erstellen“ finden Sie direkt am Anfang der Seite. Die Sichtbarkeit der Kopie ist zunächst deaktiviert, damit Sie die entsprechenden Änderungen vornehmen können. Nach der Speicherung können Sie die Nachricht in der Übersicht aktivieren..</p>
+<hr />
+<h2 id="schritt-33-orte-anlegen">📍 Schritt 3.3: Orte anlegen</h2>
+<blockquote>
+<p>Dieser Abschnitt ist für Sie nur relevant, wenn die Funktion „Orte“ für ihren Account freigegeben ist.</p>
+</blockquote>
+<p>Unter „Orte“ können Sie alle wichtigen Einrichtungen und Standorte der Umgebung eintragen, z. B. Sportvereine, Schulen und Geschäfte. Diese erscheinen in der App an verschiedenen Orten, beispielsweise im „Branchenbuch“.
+Ihr Ort ist noch nicht aufgeführt oder die Angaben sind ungenau? So können Sie Orte hinzufügen oder bearbeiten:</p>
+<p>Wählen Sie zunächst in der linken Leiste den Bereich „Orte“ aus. Klicken Sie dann oben rechts auf „Neuen Ort erstellen.“</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/02614874-c25d-40fc-8d57-121e7cd25a1b" /></p>
+<h3 id="kategorie-auswahlen_2">Kategorie auswählen</h3>
+<p>Wählen Sie eine passende Kategorie aus, die in der Liste vorgegeben wird.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/b3b0947c-4e39-4de2-a497-f2588a86c578" /></p>
+<h3 id="namen-wahlen">Namen wählen</h3>
+<p>Geben Sie hier den Namen Ihres Ortes/Geschäftes/ Ihrer Institution an.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/a5bc99c2-b635-4e33-b5ab-35691710d59a" /></p>
+<h3 id="beschreibung-wahlen_1">Beschreibung wählen</h3>
+<p>Geben Sie dem Ort eine kurze Beschreibung.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/cd030273-5c9f-4344-b578-aeea824f8776" /></p>
+<h3 id="adresse-wahlen">Adresse wählen</h3>
+<p>Geben Sie hier die Adresse ihres Ortes an (die Geo-Koordinaten können Sie auslassen, verbessern aber die Darstellung der Orte auf der Kartenansicht der App).</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/d264e175-8c18-4db2-a3d6-fe157b742024" /></p>
+<h3 id="offnungszeiten-eintragen">Öffnungszeiten eintragen</h3>
+<p>Tragen Sie hier die Öffnungszeiten ein. Wenn an mehreren Tagen geöffnet ist – z.B. montags, mittwochs und freitags – können Sie für jeden Tag eine weitere Öffnungszeit hinzufügen.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/09abda0b-fd43-45d4-8e14-337a98f4739a" /></p>
+<h3 id="betreiber-wahlen">Betreiber wählen</h3>
+<p>Geben Sie an, wer den Ort/ die Institution betreibt.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/bb8504bb-fc6f-4df7-8872-8c7978c6239f" /></p>
+<h3 id="kontakt-hinzufugen">Kontakt hinzufügen</h3>
+<p>Geben Sie die Kontaktinformationen der Ansprechperson an.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/ed08773c-268c-4c56-a31b-9f280be285ad" /></p>
+<h3 id="links-wahlen">Links wählen</h3>
+<p>Hier ist es möglich, einen oder mehrere Verknüpfungen zu erstellen und auf eine Homepage zu verweisen.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/fce93081-21f0-45d4-be1a-9bdd43f0cc07" /></p>
+<h3 id="preise-angeben_1">Preise angeben</h3>
+<p>Falls diverse Kosten anfallen, können Sie diese hier angeben.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/72b34843-f723-44a5-aa46-396187d1bf65" /></p>
+<h3 id="dateien-hochladen_1">Dateien hochladen</h3>
+<p>fügen Sie hier ein geeignetes Bild für Ihren Ort hinzu. Ein Bild im Querformat mit einer maximalen Dateigröße von 2 MB eignet sich am besten. Verwenden Sie eine PNG- oder JPEG-Datei Die Pixelgröße sollte bei 600 x 300px liegen, andernfalls könnte das Bild später abgeschnitten erscheinen.</p>
+<p>Wählen Sie „Bild vom Computer hochladen“. Falls kein Bild vorhanden ist, können Sie auch ein alternatives Bild, beispielsweise eine Aufnahme Ihrer Einrichtung, verwenden.</p>
+<p>Bitte geben Sie den/die Rechteinhaber/in des Bildes an und stellen Sie sicher, dass Sie die Berechtigung zur öffentlichen Nutzung haben.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/998389e4-55da-466f-a189-b20ead3167b6" /></p>
+<p>Wenn Sie zusätzliche Bilder (z. B. Plakate) in den Beschreibungstext Ihres Ortes einfügen möchten, müssen diese Bilder zuvor an anderer Stelle im Internet (z.B. auf Ihrer Website) mit gültigem Link hochgeladen worden sein. Anschließend können Sie das Bild per Kopieren und Einfügen (Strg+C / Strg+V oder Rechtsklick → Kopieren/Einfügen) an der gewünschten Stelle integrieren. Dies kann in der App wie folgt aussehen:
+<img alt="image" src="https://github.com/user-attachments/assets/8690fff6-4f69-48e4-b3a3-a02901e99fc0" /></p>
+<p>Außerdem können Sie bei Bedarf nicht nur ein Bild anhängen, sondern auch ein Video. Dafür wählen Sie „+ Datei hinzufügen“ aus und als „Art“ dann Video, statt Foto.
+<img alt="image" src="https://github.com/user-attachments/assets/28a33101-b782-4ef6-b70c-e822a2d717b4" /></p>
+<p>Oben in dem Feld wird dann das iFrame von YouTube eingebaut. Den Link dazu finden Sie bei YouTube, unter ihrem gewünschten Video, bei „Teilen“:
+<img alt="image" src="https://github.com/user-attachments/assets/942d017c-0616-4d48-b31e-30170d8f8d05" /></p>
+<p>Dann „Einbetten“
+<img alt="image" src="https://github.com/user-attachments/assets/52a29d86-d598-4135-b425-2b74bce7df55" /></p>
+<p>Schließlich muss noch der Code kopiert werden:
+<img alt="image" src="https://github.com/user-attachments/assets/c4826ee3-1f3a-4a4c-b732-559b16a682d6" /></p>
+<p>Damit das Format passt, müssen Sie dann noch bei „width“ eingeben: „100%“ und height “200“.</p>
+<h3 id="speichern_1">Speichern</h3>
+<p>Wenn Sie alles ausgefüllt haben, können Sie auf “Speichern” klicken. Der Button befindet sich am Ende der Seite. Sobald Sie eine Speicherung vornehmen, wird Ihr Ort in der App veröffentlicht.</p>
+<p><img alt="image" src="https://github.com/user-attachments/assets/08910a47-4931-4ccd-b425-72a2cf831111" /></p>
+<h3 id="bearbeitung-sichtbarkeit_2">Bearbeitung &amp; Sichtbarkeit</h3>
+<p>Sie finden nun ihren Ort in der Übersicht des Redaktionssystems und kurz nach der Speicherung auch bereits in der App. Überprüfen Sie nach jeder Veröffentlichung eines Ortes in der App, ob alle Angaben sowie die Darstellung Ihrer Inhalte korrekt sind. Falls Sie nachträglich Anpassungen vornehmen möchten, können Sie dies über die Aktion „Bearbeiten“.</p>
+<p>Links neben dem Bearbeitungsbutton können Sie die Sichtbarkeit des Ortes jederzeit deaktivieren/aktivieren.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.instant", "toc.integrate", "content.code.copy", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>

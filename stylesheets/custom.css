@@ -1,0 +1,17 @@
+/* Style für die Haupt-Sections (Navigationstitel) */
+.md-nav__item--section>.md-nav__link[for] {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--md-primary-fg-color);  /* aus dem aktiven Farbschema */
+  margin-top: 1rem;
+}
+
+/* Abstand zwischen Sections */
+.md-nav__list {
+  margin-bottom: 1rem;
+}
+
+.md-nav--primary .md-nav__title[for=__drawer] {
+  display: none;
+}
