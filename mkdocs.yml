@@ -2,9 +2,12 @@ site_name: Dokumentation für die Smart Village App
 site_url: https://smart-village-solutions.github.io/smart-village-app-admin-doku
 site_description: Dokumentation zur Konfiguration und Administration der Smart Village App und ihrer Module für Administrator:innen in Städten und Gemeinden.
 site_author: Smart Village Solutions
+docs_dir: docs
+site_dir: site
 
 theme:
   name: material
+  language: de
   features:
     - navigation.sections     # Gruppierte Sidebar (empfohlen)
     - navigation.instant      # Kein Seiten-Reload beim Wechsel (schneller)
@@ -33,8 +36,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
-language: de
 
 extra_css:
   - stylesheets/custom.css
