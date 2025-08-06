@@ -2,12 +2,19 @@
 
 Diese Dokumentation begleitet dich durch alle Aspekte rund um die Smart Village App – von der ersten Inbetriebnahme über die redaktionelle Arbeit bis zur technischen Weiterentwicklung. Sie richtet sich an verschiedene Zielgruppen, die im und am Projekt beteiligt sind:
 
-## Für Kommunen & Administrator:innen
+## Für Kommunen
 
-Du möchtest die Smart Village App in deiner Kommune einführen oder betreuen?
-➡ Erfahre, wie der Projektstart gelingt, welche Konfigurationsmöglichkeiten es gibt, wie Rollen & Rechte verwaltet werden und wie der laufende Betrieb funktioniert.
+Du möchtest die Smart Village App in deiner Kommune einführen?
+➡ Erfahre, wie der Projektstart gelingt und wie der laufende Betrieb funktioniert.
 
-👉 [Zum Bereich für Kommunen & Administrator:innen](kommunen/projektstart.md)
+👉 [Zum Bereich für Kommunen](kommunen/projektstart.md)
+
+## Für Administrator:innen
+
+Du möchtest die Smart Village App in deiner Kommune betreuen?
+➡ Erfahre, welche Konfigurationsmöglichkeiten es gibt oder wie Rollen & Rechte verwaltet werden.
+
+👉 [Zum Bereich für Administrator:innen](admins/konfiguration.md)
 
 ## Für Redakteur:innen
 
