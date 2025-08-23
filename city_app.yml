@@ -1,0 +1,104 @@
+# Versionsinformationen
+city-app-yml-version: "1.0"
+
+# Grundlegende Informationen über die App
+name: "Smart Village App"
+provider: "Stadt Bad Belzig / Smart Village Solutions SVS GmbH"
+app_type: "Native App"
+short_description: "Modularer Open-Source-App-Baukasten für Kommunen jeder Größe. Mit zahlreichen anpassbaren Modulen dient die App als zentrale Plattform für Kommunikation und Services und fördert die digitale Teilhabe durch automatische Datenübernahme sowie eine starke Open-Source-Community."
+development_status: "Production"
+last_update: "2025-08-22"
+
+# Zusätzliche Lizenzangaben möglich?
+license:
+  name: "GNU GENERAL PUBLIC LICENSE, Version 3"
+  url: "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/master/LICENSE.md"
+
+# Kontaktinformationen
+contact:
+  - name: "Philipp Wilimzig"
+    email: "community-management@smart-village.app"
+    telefon: "+49 33841 636990"
+
+# Informationen zu Ressourcen und Repository
+website: "https://smart-village.app"
+opencode_repository: "https://gitlab.opencode.de/bad-belzig/smart-village-app"
+documentation: "https://smart-village-solutions.github.io/smart-village-app-admin-doku/"
+
+# Zusätzliche Bildinformationen möglich?
+logo:
+  url: "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/da205451a1d38759d542a8ff00bec58776c93869/images/SVA_Logo_rgb.png"
+  description: "Logo der Smart Village App"
+screenshots:
+  - url: "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/refs/heads/main/images/Symbolbild-1.png"
+    description: "Symbolbild 1"
+  - url: "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/refs/heads/main/images/Symbolbild-2.png"
+    description: "Symbolbild 2"
+
+
+# Liste der Module, die zur App gehören
+modules:
+  # Informative Module
+  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/nachrichten.yml"
+  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/veranstaltungen.yml"
+#  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/branchenbuch.yml"
+#  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/zustaendigkeitsfinder.yml"
+#  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/ris.yml"
+#  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/wetter.yml"
+#  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/baustellen.yml"
+  
+  # Interaktive Module
+# - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/abfallkalender.yml"
+#  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/schwarzes_brett.yml"
+#  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/maengelmelder.yml"
+#  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/fristenmelder.yml"
+#  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/umfrage.yml"
+  
+  # Integrationen
+#  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/community.yml"
+#  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/buergerbeteiligung.yml"
+
+# Einsatzorte der App
+deployed_in_municipalities:
+  - "Angermünde"
+  - "Arneburg-Goldbeck"
+  - "Augsburg"
+  - "Bad Belzig"
+  - "Bernau bei Berlin"
+  - "Birkenwerder"
+  - "Detmold"
+  - "Eberswalde"
+  - "Eichenzell"
+  - "Eisenhüttenstadt"
+  - "Falkenberg (Elster)"
+  - "Frankfurt (Oder)"
+  - "Gransee"
+  - "Grünheide (Mark)"
+  - "Guben"
+  - "Hagenow"
+  - "Heinersdorf"
+  - "Herzberg (Elster)"
+  - "Hohen Neuendorf"
+  - "Kiel"
+  - "Kloster Lehnin"
+  - "Kyritz"
+  - "Landkreis Havelland"
+  - "Landkreis Prignitz"
+  - "Landkreis Uckermark"
+  - "Legden"
+  - "Linz am Rhein"
+  - "Magdeburg"
+  - "Michendorf"
+  - "Neuzelle"
+  - "Neue Vahr (Bremen)"
+  - "Nuthetal"
+  - "Osnabrück"
+  - "Panketal"
+  - "Prenzlau"
+  - "Rüdersdorf"
+  - "Schönefeld"
+  - "Seelow"
+  - "Spremberg"
+  - "Storkow"
+  - "Wandlitz"
+  - "Wittingen"
