@@ -39,8 +39,8 @@ screenshots:
 # Liste der Module, die zur App gehören
 modules:
   # Informative Module
-  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/nachrichten.yml"
-  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/veranstaltungen.yml"
+  - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/nachrichten.yml"
+  - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/veranstaltungen.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/branchenbuch.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/zustaendigkeitsfinder.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/ris.yml"
