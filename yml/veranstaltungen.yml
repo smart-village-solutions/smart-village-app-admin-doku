@@ -1,0 +1,166 @@
+name: "Veranstaltungen/Events"
+topic: "veranstaltungskalender"
+short_description: "Bietet einen umfassenden Überblick über lokale Veranstaltungen und Termine."
+optional: "ja"
+development_status: "Production"
+last_update: "2025-08-22"
+screenshots: "https://mock-repo.de/veranstaltungen/screenshots/"
+
+usage_scenario: |
+  Das Modul dient als zentrale Plattform für die Veröffentlichung und Verwaltung von Veranstaltungen in der Kommune. Es ermöglicht die Darstellung vielfältiger Veranstaltungsformate von verschiedenen Anbietern.
+  
+  Typische Anwendungsfälle:
+  - Kulturelle Veranstaltungen (Konzerte, Ausstellungen, Theater)
+  - Öffentliche Termine der Stadtverwaltung
+  - Sitzungstermine
+  - Vereinsveranstaltungen
+  - Wochenmärkte und Feste
+  - Sportveranstaltungen
+  - Bürgerbeteiligungsformate
+  - Bildungsveranstaltungen und Workshops
+
+description: |
+  Das Veranstaltungsmodul bietet eine umfassende Lösung zur Darstellung und Verwaltung von Veranstaltungen in der Smart Village App.
+  
+  **Hauptmerkmale:**
+  - Kalenderansicht mit Monatsübersicht
+  - Alternative Listenansicht mit Filter- und Sortiermöglichkeiten
+  - Barrierefreie Darstellung aller Inhalte
+  - Teilen-Funktion für soziale Medien und Kalender-Apps
+
+  **Veranstaltungsdetails:**
+  - Umfassende Informationen zu jeder Veranstaltung
+  - Bilderstrecke und Beschreibung
+  - Termine und Öffnungszeiten
+  - Preisinformationen und Ticketing
+  - Barrierefreiheitsinformationen
+  - Anfahrtsbeschreibung und Parkmöglichkeiten
+  - Veranstalterinformationen mit Kontaktmöglichkeiten
+
+  **Verwaltung und Organisation:**
+  
+  *Automatisierte Datenübernahme:*
+  - Anbindung an externe Veranstaltungskalender
+  - iCal-, XML- und JSON-Import für regelmäßige Termine
+  - API-Schnittstellen für Drittanbieter
+  - Regelmäßige Synchronisation mit Quellsystemen
+  
+  *Content Management System (CMS):*
+  - Benutzerfreundliche Oberfläche zur Veranstaltungserstellung
+  - WYSIWYG-Editor für ansprechende Inhalte
+  - Medienverwaltung für Fotos und Anhänge
+  - Vorlagen für wiederkehrende Veranstaltungen
+  - Freigabeworkflows für Veranstaltungseinträge
+
+  *Rollen und Rechte:*
+  - Mehrstufiges Berechtigungskonzept:
+    * *Veranstaltungsmanager:* Volle Rechte, Freigabe von Einträgen
+    * *Veranstalter:* Eigene Veranstaltungen verwalten
+    * *Redakteure:* Inhalte pflegen und freigeben
+    * *Externe Anbieter:* Eigene Veranstaltungen einstellen
+  - Feingranulare Rechtevergabe nach Kategorien
+  - Mehrstufige Freigabeprozesse
+  - Automatische Benachrichtigungen
+
+  **Personalisierung:**
+  - Individuelle Interessensgebiete
+  - Merklisten für gespeicherte Veranstaltungen
+  - Angepasste Benachrichtigungen
+
+roadmap:
+  - Erinnerungsfunktion für bevorstehende Veranstaltungen
+  - Änderungshistorie und Versionierung
+  - "KI-gestützte Empfehlungen basierend auf Nutzerverhalten"
+  - "Erweiterte Analysen zur Veranstaltungsnutzung"
+  - "Mehrsprachige Unterstützung"
+
+interfaces:
+  - "GraphQL (Datenabfrage und -mutation)"
+  - "iCal/RSS-Import"
+  - "CMS (Verwaltungsoberfläche)"
+  - "REST-API (für Drittanbindungen)"
+  - "Kartendienste (OSM)"
+  - "Zahlungsdienstleister (für Ticketing)"
+
+dependencies:
+  - "Kartendienst-Integration"
+  - "Benutzerverwaltung"
+  - "Berechtigungssystem"
+  - "Suchfunktion"
+  - "Benachrichtigungssystem"
+  - "Analytics"
+
+external_services:
+  - name: "Veranstaltungsdatenbank"
+    description: "Zentrale Speicherung aller Veranstaltungsdaten"
+  - name: "Kartendienst"
+    description: "Für die Standortdarstellung und Navigation"
+  - name: "Zahlungsdienstleister"
+    description: "Für den Verkauf von Eintrittskarten"
+  - name: "E-Mail-Service"
+    description: "Für Benachrichtigungen und Bestätigungen"
+
+cost: "Die Kosten variieren je nach Umfang der benötigten Funktionen und der Anzahl der Veranstaltungen."
+
+customization_options:
+  - "Anpassung des Erscheinungsbilds"
+  - "Individuelle Kategorien und Schlagworte"
+
+involved_actors:
+  - name: "Veranstalter"
+    role: "Erstellung und Pflege von Veranstaltungseinträgen"
+  - name: "Besucher"
+    role: "Suche und Teilnahme an Veranstaltungen"
+  - name: "Kommunale Verwaltung"
+    role: "Koordination und Freigabe"
+  - name: "Vereine und Organisationen"
+    role: "Eigene Veranstaltungen verwalten"
+  - name: "Wirtschaftsunternehmen"
+    role: "Sponsoring und Werbung"
+
+technical_documentation: "https://smart-village-solutions.github.io/smart-village-app-admin-doku/veranstaltungen"
+
+opencode_repository: "https://gitlab.opencode.de/bad-belzig/smart-village-app-app"
+
+deployed_in_municipalities:
+  - "Angermünde"
+  - "Augsburg"
+  - "Bad Belzig"
+  - "Bernau bei Berlin"
+  - "Birkenwerder"
+  - "Detmold"
+  - "Eberswalde"
+  - "Eichenzell"
+  - "Eisenhüttenstadt"
+  - "Falkenberg (Elster)"
+  - "Frankfurt (Oder)"
+  - "Gransee"
+  - "Grünheide (Mark)"
+  - "Guben"
+  - "Hagenow"
+  - "Heinersdorf"
+  - "Herzberg (Elster)"
+  - "Hohen Neuendorf"
+  - "Kiel"
+  - "Kloster Lehnin"
+  - "Kyritz"
+  - "Landkreis Havelland"
+  - "Landkreis Prignitz"
+  - "Landkreis Uckermark"
+  - "Legden"
+  - "Linz am Rhein"
+  - "Magdeburg"
+  - "Michendorf"
+  - "Neuzelle"
+  - "Neue Vahr (Bremen)"
+  - "Nuthetal"
+  - "Osnabrück"
+  - "Panketal"
+  - "Prenzlau"
+  - "Rüdersdorf"
+  - "Schönefeld"
+  - "Seelow"
+  - "Spremberg"
+  - "Storkow"
+  - "Wandlitz"
+  - "Wittingen"
