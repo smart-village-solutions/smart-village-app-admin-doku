@@ -1,0 +1,365 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schemas/app-module-schema.json",
+  "title": "App Module Schema",
+  "description": "Schema for application module YAML files",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "name"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the module"
+    },
+    "optional": {
+      "type": "string",
+      "enum": [
+        "ja",
+        "nein",
+        "yes",
+        "no"
+      ],
+      "description": "Whether the module is optional"
+    },
+    "topic": {
+      "type": "string",
+      "description": "The main topic or category of the module",
+      "enum": [
+        "veranstaltungskalender",
+        "maengelmelder",
+        "nachrichten",
+        "bürgerbeteiligung",
+        "bürgerservices",
+        "abfallkalender",
+        "oepnv-auskunft",
+        "parkinformationen",
+        "mobilitätsdienste",
+        "notfallwarnungen",
+        "wetterinformationen",
+        "formularservice",
+        "terminbuchung",
+        "kontaktverzeichnis",
+        "recyclinginformationen",
+        "umweltmonitoring",
+        "feedbackmodul",
+        "branchenverzeichnis",
+        "stellenangebote",
+        "tourismusinformationen",
+        "kulturveranstaltungen",
+        "bildungsinformationen",
+        "kinder-und-jugendangebote",
+        "seniorenangebote",
+        "sozialdienste",
+        "push-benachrichtigungen",
+        "hilfe-und-faq",
+        "barrierefreiheit",
+        "sprachwahl",
+        "marktplatz",
+        "raumbuchung"
+      ]
+    },
+    "short_description": {
+      "type": "string",
+      "description": "A brief description of the module's functionality"
+    },
+    "opencode_repository": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the module's open source code repository"
+    },
+    "screenshots": {
+      "type": "string",
+      "description": "Filename or path to screenshots of the module"
+    },
+    "usage_scenario": {
+      "type": "string",
+      "description": "Detailed description of how and when the module is used"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the module's functionality"
+    },
+    "cost": {
+      "type": "string",
+      "description": "Cost information for the module"
+    },
+    "interfaces": {
+      "type": "array",
+      "description": "List of interfaces the module provides or uses",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "description": "List of dependencies required by the module",
+      "items": {
+        "type": "string"
+      }
+    },
+    "external_services": {
+      "type": "array",
+      "description": "List of external services used by the module",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the external service"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of how the service is used"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL to the external service"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "customization_options": {
+      "type": "array",
+      "description": "List of available customization options",
+      "items": {
+        "type": "string"
+      }
+    },
+    "involved_actors": {
+      "type": "array",
+      "description": "List of actors involved in using or managing the module",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name or title of the actor"
+          },
+          "role": {
+            "type": "string",
+            "description": "Role or responsibility of the actor"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "technical_documentation": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to technical documentation for the module"
+    },
+    "deployed_in_municipalities": {
+      "type": "array",
+      "description": "List of municipalities where the module is deployed",
+      "items": {
+        "type": "string"
+      }
+    },
+    "development_status": {
+      "type": "string",
+      "enum": [
+        "Alpha",
+        "Beta",
+        "Stable",
+        "Production",
+        "Deprecated"
+      ],
+      "description": "Current development status of the module"
+    },
+    "last_update": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of the last update in YYYY-MM-DD format"
+    },
+    "topic_enum_info": {
+      "type": "array",
+      "readOnly": true,
+      "description": "Informative Beschreibung der möglichen topic-Werte (nur zur Dokumentation, nicht zur Validierung verwendet)",
+      "items": {
+        "type": "object",
+        "required": [
+          "value",
+          "label",
+          "description"
+        ],
+        "properties": {
+          "value": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "example_topic_enum_info": [
+    {
+      "value": "veranstaltungskalender",
+      "label": "Veranstaltungskalender",
+      "description": "Übersicht über lokale Veranstaltungen, Termine und Events"
+    },
+    {
+      "value": "maengelmelder",
+      "label": "Mängelmelder",
+      "description": "Meldung von Schäden oder Problemen im Stadtgebiet"
+    },
+    {
+      "value": "nachrichten",
+      "label": "Nachrichten",
+      "description": "Aktuelle Nachrichten, Mitteilungen und Bekanntmachungen der Stadt"
+    },
+    {
+      "value": "bürgerbeteiligung",
+      "label": "Bürgerbeteiligung",
+      "description": "Umfragen, Abstimmungen und Möglichkeiten zur Bürgerpartizipation"
+    },
+    {
+      "value": "bürgerservices",
+      "label": "Bürgerservices",
+      "description": "Digitale Verwaltungsdienste für Bürgerinnen und Bürger"
+    },
+    {
+      "value": "abfallkalender",
+      "label": "Abfallkalender",
+      "description": "Abholtermine für Müll, Wertstoffe und Sperrmüll"
+    },
+    {
+      "value": "oepnv-auskunft",
+      "label": "ÖPNV-Auskunft",
+      "description": "Fahrpläne und Verbindungen für Bus und Bahn"
+    },
+    {
+      "value": "parkinformationen",
+      "label": "Parkinformationen",
+      "description": "Informationen zu Parkplätzen, Parkhäusern und Belegung"
+    },
+    {
+      "value": "mobilitätsdienste",
+      "label": "Mobilitätsdienste",
+      "description": "Informationen und Dienste rund um Fahrrad, Carsharing, E-Mobilität etc."
+    },
+    {
+      "value": "notfallwarnungen",
+      "label": "Notfallwarnungen",
+      "description": "Warnmeldungen bei Notfällen, Unwettern oder Katastrophen"
+    },
+    {
+      "value": "wetterinformationen",
+      "label": "Wetterinformationen",
+      "description": "Lokale Wettervorhersage und Warnhinweise"
+    },
+    {
+      "value": "formularservice",
+      "label": "Formularservice",
+      "description": "Zugriff auf digitale Formulare und Anträge"
+    },
+    {
+      "value": "terminbuchung",
+      "label": "Terminbuchung",
+      "description": "Online-Terminvereinbarung mit Ämtern oder Einrichtungen"
+    },
+    {
+      "value": "kontaktverzeichnis",
+      "label": "Kontaktverzeichnis",
+      "description": "Verzeichnis von Ansprechpartnern, Behörden und Einrichtungen"
+    },
+    {
+      "value": "recyclinginformationen",
+      "label": "Recyclinginformationen",
+      "description": "Informationen zu Recyclinghöfen, Abgabestellen, Öffnungszeiten"
+    },
+    {
+      "value": "umweltmonitoring",
+      "label": "Umweltmonitoring",
+      "description": "Anzeigen von Luftqualität, Lärm oder anderen Umweltdaten"
+    },
+    {
+      "value": "feedbackmodul",
+      "label": "Feedbackmodul",
+      "description": "Möglichkeit zur Rückmeldung an die Stadt oder App-Betreiber"
+    },
+    {
+      "value": "branchenverzeichnis",
+      "label": "Branchenverzeichnis",
+      "description": "Übersicht lokaler Unternehmen, Geschäfte und Dienstleister"
+    },
+    {
+      "value": "stellenangebote",
+      "label": "Stellenangebote",
+      "description": "Jobs und Ausbildungsplätze in der Region"
+    },
+    {
+      "value": "tourismusinformationen",
+      "label": "Tourismusinformationen",
+      "description": "Inhalte für Besucher: Sehenswürdigkeiten, Führungen, Tipps"
+    },
+    {
+      "value": "kulturveranstaltungen",
+      "label": "Kulturveranstaltungen",
+      "description": "Angebote aus Theater, Musik, Kunst und Kultur"
+    },
+    {
+      "value": "bildungsinformationen",
+      "label": "Bildungsinformationen",
+      "description": "Infos zu Schulen, Kitas, Bildungsangeboten"
+    },
+    {
+      "value": "kinder-und-jugendangebote",
+      "label": "Kinder- und Jugendangebote",
+      "description": "Freizeit- und Unterstützungsangebote für Kinder und Jugendliche"
+    },
+    {
+      "value": "seniorenangebote",
+      "label": "Seniorenangebote",
+      "description": "Informationen für ältere Bürgerinnen und Bürger"
+    },
+    {
+      "value": "sozialdienste",
+      "label": "Sozialdienste",
+      "description": "Angebote und Hilfen für Menschen in schwierigen Lebenslagen"
+    },
+    {
+      "value": "push-benachrichtigungen",
+      "label": "Push-Benachrichtigungen",
+      "description": "System für gezielte Benachrichtigungen an Nutzerinnen und Nutzer"
+    },
+    {
+      "value": "hilfe-und-faq",
+      "label": "Hilfe & FAQ",
+      "description": "Hilfe, häufig gestellte Fragen, Nutzeranleitungen"
+    },
+    {
+      "value": "barrierefreiheit",
+      "label": "Barrierefreiheit",
+      "description": "Barrierefreie Zugänge, Texte in Leichter Sprache etc."
+    },
+    {
+      "value": "sprachwahl",
+      "label": "Sprachauswahl",
+      "description": "Auswahl der Sprache innerhalb der App"
+    },
+    {
+      "value": "marktplatz",
+      "label": "Marktplatz",
+      "description": "Regionale Anzeigen, Angebote, lokale Marktplattform"
+    },
+    {
+      "value": "raumbuchung",
+      "label": "Raumbuchung",
+      "description": "Reservierung öffentlicher Räume, Sporthallen, Veranstaltungsorte"
+    }
+  ]
+}
