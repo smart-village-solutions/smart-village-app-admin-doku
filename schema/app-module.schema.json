@@ -178,6 +178,13 @@
       "format": "date",
       "description": "Date of the last update in YYYY-MM-DD format"
     },
+    "roadmap": {
+      "type": "array",
+      "description": "List of planned features or improvements for the future development of the module",
+      "items": {
+        "type": "string"
+      }
+    },
     "topic_enum_info": {
       "type": "array",
       "readOnly": true,
