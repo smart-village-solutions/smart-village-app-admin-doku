@@ -1,0 +1,51 @@
+# Module Partial: app-intro
+# This partial is merged with yml/global.yml to generate yml/app-intro.yml
+# Last updated: 2025-11-09
+
+name: App-Intro
+topic: hilfe-und-faq
+short_description: Einführungsbildschirme beim ersten App-Start zur Vorstellung der
+  Funktionen
+usage_scenario: Neuer Nutzer öffnet die App zum ersten Mal und erhält eine Übersicht
+  der wichtigsten Features
+description: 'Das App-Intro-Modul zeigt beim ersten App-Start eine Reihe von Einführungsbildschirmen,
+  die die Hauptfunktionen der App vorstellen.
+
+
+  **Funktionen:**
+
+  - Mehrseitige Einführung mit Bildern und Texten
+  - Skip-Funktion zum Überspringen
+  - Abfragen zur Freigabe von Push-Benachrichtigungen, Standortzugriff und der Nutzungsanalysen können integriert werden
+  - Separate Ansicht für die optionale Zustimmung zu den Nutzungsbestimmungen
+  - Anzeige nur beim ersten Start
+  - Option in den App-Einstellungen, um das Intro erneut anzuzeigen
+  - Steuerung der Inhalte erfolgt durch eine Konfigurtationsdatei auf dem App-Server
+
+
+
+  **Anwendungsfälle:**
+
+  - Onboarding neuer Nutzer
+  - Vorstellung der wichtigsten Features
+  - Erklärung von Bedienkonzepten
+  - Hinweise auf wichtige Funktionen wie Push-Benachrichtigungen'
+
+interfaces:
+- App-interne Konfiguration
+- Lokaler Storage für "gesehen"-Status
+dependencies:
+- App-Server
+- App-Einstellungen
+
+customization_options:
+- Anzahl der Intro-Seiten
+- Bilder und Texte anpassen
+- Farben und Styling
+- Reihenfolge der Screens
+- Abfrage von Berechtigungen
+involved_actors:
+- name: Administrator
+  role: Konfiguriert Intro-Inhalte und Einstellungen
+- name: Bürger
+  role: Sieht und durchläuft das Intro beim ersten App-Start
