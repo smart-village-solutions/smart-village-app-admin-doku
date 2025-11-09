@@ -81,10 +81,11 @@ def merge_with_global(module_data: Dict[str, Any], global_data: Dict[str, Any]) 
     # Start with schema defaults
     result.update(schema_defaults)
 
-    # Override with global.yml
-    for key, value in global_data.items():
-        if key != 'name':  # name kommt nur aus Modul
-            result[key] = value
+    # Override with global.yml common fields
+    if 'common' in global_data:
+        for key, value in global_data['common'].items():
+            if key != 'name':  # name kommt nur aus Modul
+                result[key] = value
 
     # Override with module-specific
     result.update(module_data)

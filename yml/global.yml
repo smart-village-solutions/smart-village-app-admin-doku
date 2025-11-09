@@ -1,0 +1,83 @@
+# Global Module Configuration
+# Diese Datei enthält gemeinsame Felder für alle Smart Village App Module
+# Module können diese Werte in yml/modules/[name].yml überschreiben
+
+version: "1.0"
+
+# Gemeinsame Felder für alle Module
+common:
+  # Repository-Informationen
+  opencode_repository: "https://gitlab.opencode.de/bad-belzig/smart-village-app-app"
+
+  # Standard-Entwicklungsstatus (Module können mit Beta/Alpha überschreiben)
+  development_status: "Production"
+
+  # Standard: Module sind optional
+  optional: "ja"
+
+  # Standard-Screenshot-Platzhalter (Module sollten echte URLs definieren)
+  screenshots: ""
+
+  # Kommunen, in denen die Smart Village App eingesetzt wird
+  # Module können diese Liste überschreiben, wenn sie nur in ausgewählten Kommunen verfügbar sind
+  deployed_in_municipalities:
+  - "Angermünde"
+  - "Arneburg-Goldbeck"
+  - "Augsburg"
+  - "Bad Belzig"
+  - "Bernau bei Berlin"
+  - "Birkenwerder"
+  - "Briesen (Mark)"
+  # - "Ahrensfelde"
+  - "Detmold"
+  - "Eberswalde"
+  - "Eichenzell"
+  - "Eisenhüttenstadt"
+  - "Falkenberg (Elster)"
+  - "Frankfurt (Oder)"
+  - "Goslar"
+  - "Gransee"
+  - "Grünheide (Mark)"
+  - "Guben"
+  - "Hagenow"
+  - "Heinersdorf"
+  - "Herzberg (Elster)"
+  - "Hohen Neuendorf"
+  # - "Harsum"
+  - "Kiel"
+  - "Kloster Lehnin"
+  # - "Königs Wusterhausen"
+  - "Kyritz"
+  - "Landkreis Havelland"
+  # - "Landkreis Dahme-Spreewald"
+  # - "Landkreis Oberspreewald-Lausitz"
+  - "Landkreis Prignitz"
+  - "Landkreis Uckermark"
+  - "Legden"
+  - "Linz am Rhein"
+  - "Magdeburg"
+  - "Michendorf"
+  - "Neuzelle"
+  - "Neue Vahr (Bremen)"
+  - "Nuthetal"
+  - "Osnabrück"
+  - "Panketal"
+  # - "Papenburg"
+  - "Petershagen/Eggersdorf"
+  - "Prenzlau"
+  - "Rüdersdorf bei Berlin"
+  - "Schönefeld"
+  - "Seelow"
+  - "Spremberg"
+  - "Storkow"
+  - "Wandlitz"
+  # - "Wittingen"
+
+# Hinweise für die Nutzung:
+# - Kopiere diese Felder NICHT in Modul-Dateien, wenn du die Standard-Werte nutzen möchtest
+# - Überschreibe nur die Felder, die vom Standard abweichen
+# - Beispiel: Beta-Modul nur in 2 Kommunen:
+#   development_status: "Beta"
+#   deployed_in_municipalities:
+#     - "Bad Belzig"
+#     - "Kiel"
