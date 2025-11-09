@@ -100,7 +100,7 @@ external_services:
   - name: "E-Mail-Service"
     description: "Für Benachrichtigungen und Bestätigungen"
 
-cost: "Die Kosten variieren je nach Umfang der benötigten Funktionen und der Anzahl der Veranstaltungen."
+cost: "Auf Anfrage"
 
 customization_options:
   - "Anpassung des Erscheinungsbilds"
