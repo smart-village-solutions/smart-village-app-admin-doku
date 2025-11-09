@@ -39,21 +39,25 @@ screenshots:
 # Liste der Module, die zur App gehören
 modules:
   # Informative Module
+  - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/app-intro.yml"
   - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/nachrichten.yml"
   - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/veranstaltungen.yml"
+  - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/abfallkalender.yml"
+  - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/maengelmelder.yml"
+  - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/karten.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/branchenbuch.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/zustaendigkeitsfinder.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/ris.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/wetter.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/baustellen.yml"
-  
+
   # Interaktive Module
 # - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/abfallkalender.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/schwarzes_brett.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/maengelmelder.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/fristenmelder.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/umfrage.yml"
-  
+
   # Integrationen
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/community.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/buergerbeteiligung.yml"
@@ -101,4 +105,3 @@ deployed_in_municipalities:
   - "Spremberg"
   - "Storkow"
   - "Wandlitz"
-  - "Wittingen"
