@@ -45,6 +45,7 @@ modules:
   - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/abfallkalender.yml"
   - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/maengelmelder.yml"
   - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/karten.yml"
+  - https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/einstellungen.yml
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/branchenbuch.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/zustaendigkeitsfinder.yml"
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/ris.yml"

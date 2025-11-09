@@ -1,0 +1,42 @@
+# Module Partial: einstellungen
+# This partial is merged with yml/global.yml to generate yml/einstellungen.yml
+# Last updated: 2025-11-09
+
+name: Einstellungen
+topic: hilfe-und-faq
+short_description: App-Einstellungen u.a. für Benachrichtigungen und persönliche Anpassungen
+usage_scenario: Nutzer öffnet die Einstellungen, um Push-Benachrichtigungen zu verwalten, Design anzupassen oder Datenschutzeinstellungen zu ändern
+description: 'Das Einstellungen-Modul bietet umfassende Konfigurationsmöglichkeiten für die App-Nutzung und Personalisierung. Die einzelnen Optionen sind abhängig von den jeweiligen App-Modulen.
+
+
+  **Funktionen:**
+
+  - Push-Benachrichtigungen verwalten (aktivieren/deaktivieren)
+  - Daten-Quellen verwalten (aktivieren/deaktivieren)
+  - Newskategorien verwalten (Pushnachrichten pro Kategorie ein-/ausschalten)
+  - Datenschutzeinstellungen (Freigabe der Nutzungsdaten für die Datenanalyse)
+  - App-Intro erneut anzeigen
+  - AR-Dateien verwalten (herunterladen/löschen)
+
+
+  **Anwendungsfälle:**
+
+  - Nutzer deaktiviert Push-Benachrichtigungen für bestimmte Kategorien
+  - Nutzer widerruft Einwilligung zum Tracking'
+interfaces:
+- Lokaler Storage für Einstellungen
+- Push-Notification-Service-Anbindung
+dependencies:
+- App-Server (für Synchronisation bei Login)
+- App-Intro
+- Push-Nachrichten
+- Karten-Modul
+- Abfallkalender-Modul
+- Nachrichten
+customization_options:
+- Sichtbarkeit einzelner Einstellungs-Optionen
+involved_actors:
+- name: Nutzer
+  role: Passt App nach eigenen Präferenzen an
+- name: Administrator
+  role: Konfiguriert verfügbare Einstellungsoptionen
