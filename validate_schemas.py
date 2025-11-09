@@ -4,13 +4,15 @@ Schema Validator for Smart Village App Documentation
 
 This script validates YAML files against their corresponding JSON schemas:
 - city_app.yml against city-app-schema.json
-- yml/nachrichten.yml and yml/veranstaltungen.yml against app-module.schema.json
+- All yml/*.yml files against app-module.schema.json (default)
+- With --minimal: validates only nachrichten.yml and veranstaltungen.yml (legacy mode)
 """
 
 import sys
 import yaml
 import json
 import jsonschema
+import argparse
 from jsonschema import validate, ValidationError
 from pathlib import Path
 from typing import Tuple, List
@@ -76,6 +78,18 @@ def validate_file(yaml_path: Path, schema_path: Path) -> Tuple[bool, str]:
 
 def main():
     """Main validation function"""
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(
+        description='Validate YAML files against JSON schemas',
+        formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    parser.add_argument(
+        '--minimal',
+        action='store_true',
+        help='Validate only nachrichten.yml and veranstaltungen.yml (legacy mode)'
+    )
+    args = parser.parse_args()
+
     print(f"{Colors.BOLD}{Colors.BLUE}{'=' * 70}{Colors.END}")
     print(f"{Colors.BOLD}{Colors.BLUE}Schema Validation for Smart Village App Documentation{Colors.END}")
     print(f"{Colors.BOLD}{Colors.BLUE}{'=' * 70}{Colors.END}\n")
@@ -89,18 +103,43 @@ def main():
             'name': 'City App Configuration',
             'yaml': base_dir / 'city_app.yml',
             'schema': base_dir / 'schema' / 'city-app-schema.json'
-        },
-        {
-            'name': 'Nachrichten Module',
-            'yaml': base_dir / 'yml' / 'nachrichten.yml',
-            'schema': base_dir / 'schema' / 'app-module.schema.json'
-        },
-        {
-            'name': 'Veranstaltungen Module',
-            'yaml': base_dir / 'yml' / 'veranstaltungen.yml',
-            'schema': base_dir / 'schema' / 'app-module.schema.json'
         }
     ]
+
+    if args.minimal:
+        # Validate only default module files (legacy mode)
+        validation_tasks.extend([
+            {
+                'name': 'Nachrichten Module',
+                'yaml': base_dir / 'yml' / 'nachrichten.yml',
+                'schema': base_dir / 'schema' / 'app-module.schema.json'
+            },
+            {
+                'name': 'Veranstaltungen Module',
+                'yaml': base_dir / 'yml' / 'veranstaltungen.yml',
+                'schema': base_dir / 'schema' / 'app-module.schema.json'
+            }
+        ])
+    else:
+        # Validate all yml/*.yml files (default)
+        module_schema = base_dir / 'schema' / 'app-module.schema.json'
+        yml_dir = base_dir / 'yml'
+
+        if yml_dir.exists():
+            yaml_files = sorted(yml_dir.glob('*.yml'))
+            print(f"{Colors.BLUE}Validating all module YAML files in yml/ directory...{Colors.END}\n")
+
+            for yaml_file in yaml_files:
+                # Skip global.yml as it's only a template, not a complete module
+                if yaml_file.name == 'global.yml':
+                    print(f"{Colors.YELLOW}Skipping: {yaml_file.name} (template file){Colors.END}\n")
+                    continue
+
+                validation_tasks.append({
+                    'name': f'Module: {yaml_file.stem}',
+                    'yaml': yaml_file,
+                    'schema': module_schema
+                })
 
     results: List[Tuple[str, bool, str]] = []
 
