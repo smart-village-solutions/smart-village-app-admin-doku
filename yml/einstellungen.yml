@@ -8,6 +8,7 @@ optional: ja
 cost: Auf Anfrage
 screenshots: https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-app/main/screenshots
 technical_documentation: https://gitlab.opencode.de/bad-belzig/smart-village-app-app/-/blob/main/README.md
+topic_enum_info: []
 deployed_in_municipalities:
 - Angermünde
 - Arneburg-Goldbeck

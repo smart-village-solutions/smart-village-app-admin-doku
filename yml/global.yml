@@ -24,6 +24,9 @@ common:
   # Technische Dokumentation (GitLab README als Standard)
   technical_documentation: "https://gitlab.opencode.de/bad-belzig/smart-village-app-app/-/blob/main/README.md"
 
+  # Topic Enum Info (leeres Array, da Module ihr eigenes Topic haben)
+  topic_enum_info: []
+
   # Kommunen, in denen die Smart Village App eingesetzt wird
   # Module können diese Liste überschreiben, wenn sie nur in ausgewählten Kommunen verfügbar sind
   deployed_in_municipalities:
