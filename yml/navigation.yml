@@ -1,0 +1,137 @@
+# AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY
+# This file is generated from yml/modules/navigation.yml + yml/global.yml
+# To make changes, edit the source files and regenerate
+
+opencode_repository: https://gitlab.opencode.de/bad-belzig/smart-village-app-app
+development_status: Production
+optional: ja
+cost: Auf Anfrage
+screenshots: https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-app/main/screenshots
+technical_documentation: https://gitlab.opencode.de/bad-belzig/smart-village-app-app/-/blob/main/README.md
+topic_enum_info: []
+deployed_in_municipalities:
+- Angermünde
+- Arneburg-Goldbeck
+- Augsburg
+- Bad Belzig
+- Bernau bei Berlin
+- Birkenwerder
+- Briesen (Mark)
+- Detmold
+- Eberswalde
+- Eichenzell
+- Eisenhüttenstadt
+- Falkenberg (Elster)
+- Frankfurt (Oder)
+- Goslar
+- Gransee
+- Grünheide (Mark)
+- Guben
+- Hagenow
+- Heinersdorf
+- Herzberg (Elster)
+- Hohen Neuendorf
+- Kiel
+- Kloster Lehnin
+- Kyritz
+- Landkreis Havelland
+- Landkreis Prignitz
+- Landkreis Uckermark
+- Legden
+- Linz am Rhein
+- Magdeburg
+- Michendorf
+- Neuzelle
+- Neue Vahr (Bremen)
+- Nuthetal
+- Osnabrück
+- Panketal
+- Petershagen/Eggersdorf
+- Prenzlau
+- Rüdersdorf bei Berlin
+- Schönefeld
+- Seelow
+- Spremberg
+- Storkow
+- Wandlitz
+name: Navigation
+topic: hilfe-und-faq
+short_description: Hauptnavigation der App mit zwei Varianten (Tabbar oder Drawer)
+  für die Strukturierung der Inhalte
+usage_scenario: Nutzer öffnet die App und nutzt die Navigation (Tabbar am unteren
+  Bildschirmrand oder Drawer-Menü), um zwischen verschiedenen Bereichen wie Home,
+  Veranstaltungen oder Services zu wechseln
+description: 'Das Navigations-Modul steuert die Hauptnavigation der Smart Village
+  App und bietet zwei alternative Navigationsvarianten, zwischen denen sich Kommunen
+  beim App-Setup entscheiden müssen.
+
+
+  **Variante 1: Tabbar (Bottom Navigation)**
+
+  Die Tabbar ist eine dauerhafte Navigationsleiste am unteren Bildschirmrand mit 4-5
+  Icons für die wichtigsten Bereiche. Sie ist jederzeit sichtbar und ermöglicht schnellen
+  Zugriff auf Hauptfunktionen.
+
+  - **Vorteile:** Immer sichtbar, direkter Zugriff, moderne mobile UX
+
+  - **Nachteile:** Begrenzt auf 4-5 Hauptbereiche
+
+  - **Typische Elemente:** Home, Veranstaltungen, Services, Wegweiser, Mehr
+
+  - **Anwendungsfall:** Für fokussierte Apps mit wenigen, klar strukturierten Hauptbereichen
+
+
+  **Variante 2: Drawer (Seitenmenü)**
+
+  Der Drawer ist ein ausklappbares Seitenmenü (meist von links), das über ein Hamburger-Icon
+  (☰) geöffnet wird. Er bietet Platz für viele Menüpunkte und kann hierarchisch strukturiert
+  werden.
+
+  - **Vorteile:** Platz für viele Navigationspunkte, hierarchische Struktur möglich
+
+  - **Nachteile:** Nicht immer sichtbar, zusätzlicher Klick erforderlich
+
+  - **Typische Elemente:** Beliebig viele Bereiche, Unterkategorien, Einstellungen
+
+  - **Anwendungsfall:** Für Apps mit vielen verschiedenen Modulen und komplexerer
+  Struktur
+
+
+  **Gemeinsame Funktionen:**
+
+  - Konfigurierbare Reihenfolge der Navigationspunkte
+
+  - Icons und Labels anpassbar
+
+  - Deep-Linking zu allen Navigationspunkten
+
+  - Responsives Design für verschiedene Bildschirmgrößen
+
+
+  **Technische Details:**
+
+  - Die Wahl zwischen Tabbar und Drawer erfolgt einmalig bei der App-Konfiguration
+
+  - Navigation wird über JSON-Konfiguration im App-Server gesteuert
+
+  - Jeder Navigationspunkt verweist auf ein Modul oder eine Screen-Komponente'
+interfaces:
+- App-Server-Konfiguration (JSON)
+- Deep-Linking-API für direkte Navigation
+dependencies:
+- App-Server (Navigationskonfiguration)
+- Alle navigierbaren Module (Events, News, Services, etc.)
+customization_options:
+- Wahl zwischen Tabbar oder Drawer
+- Anzahl und Reihenfolge der Navigationspunkte
+- Icons für jeden Navigationspunkt
+- Labels (Text) für jeden Navigationspunkt
+- Farben und Styling der Navigation
+involved_actors:
+- name: Administrator
+  role: Konfiguriert die Navigationsstruktur und wählt die Variante (Tabbar/Drawer)
+- name: Nutzer
+  role: Nutzt die Navigation, um zwischen App-Bereichen zu wechseln
+external_services: []
+last_update: '2025-11-09'
+roadmap: []
