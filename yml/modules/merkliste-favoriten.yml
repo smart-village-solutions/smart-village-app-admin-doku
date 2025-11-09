@@ -1,0 +1,74 @@
+# Module Partial: merkliste-favoriten
+# This partial is merged with yml/global.yml to generate yml/merkliste-favoriten.yml
+# Last updated: 2025-11-09
+
+name: Merkliste/Favoriten
+topic: hilfe-und-faq
+short_description: Persönliche Merkliste zum Speichern und schnellen Wiederfinden von Lieblingsinhalten
+usage_scenario: Nutzer markiert interessante Veranstaltungen, POIs oder News als Favoriten und findet sie später in der Merkliste wieder
+description: 'Das Merkliste/Favoriten-Modul ermöglicht es Nutzern, beliebige App-Inhalte zu bookmarken und in einer persönlichen Liste zu sammeln. So können wichtige oder interessante Inhalte schnell wiedergefunden werden.
+
+
+  **Funktionen:**
+
+  - Inhalte als Favoriten markieren (Stern-Icon oder Herz-Symbol)
+
+  - Zentrale Übersicht aller gespeicherten Favoriten
+
+  - Filterung nach Inhaltstypen (Events, News, POIs, etc.)
+
+  - Sortierung nach Datum oder Typ
+
+
+  **Unterstützte Inhaltstypen:**
+
+  - Veranstaltungen (Events)
+
+  - Nachrichten und Artikel
+
+  - Points of Interest (POIs) / Orte
+
+  - Touren und Routen
+
+  - Gastro-Angebote
+
+  - Stellenanzeigen
+
+  - Statische Seiten
+
+  - Schwarzes Brett
+
+  - Fristenmelder
+
+  **Anwendungsfälle:**
+
+  - Nutzer speichert interessante Veranstaltungen für spätere Planung
+
+  - Tourist markiert Sehenswürdigkeiten für die nächste Besichtigung
+
+  - Bürger merkt sich wichtige News-Artikel
+
+  - Pendler speichert häufig besuchte Orte (Bus-Haltestellen, Parkplätze)
+
+
+  **Technische Details:**
+
+  - Favoriten werden lokal auf dem Gerät gespeichert
+
+  - Referenz auf Original-Inhalte via ID
+
+  - Automatische Aktualisierung bei Änderungen am Original-Inhalt'
+interfaces:
+- Lokaler Storage
+dependencies:
+- Lokaler Storage
+- Alle content-liefernden Module
+customization_options: []
+
+involved_actors:
+- name: Nutzer
+  role: Speichert und verwaltet persönliche Favoriten
+
+external_services: []
+last_update: '2025-11-09'
+roadmap: []
