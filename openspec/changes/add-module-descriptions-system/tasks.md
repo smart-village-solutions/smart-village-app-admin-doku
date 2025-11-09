@@ -271,24 +271,28 @@
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.2.2 Statische Listen/Kacheln
 - [ ] Branch erstellen: `feature/module-statische-listen-kacheln`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.2.3 Schwarzes Brett
 - [ ] Branch erstellen: `feature/module-schwarzes-brett`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.2.4 Störer
 - [ ] Branch erstellen: `feature/module-stoerer`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 ### 3.3 Bürgerdienste-Module (8 Module)
 
@@ -297,48 +301,56 @@
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.3.2 Feedback-Formular
 - [ ] Branch erstellen: `feature/module-feedback-formular`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.3.3 Umfragen
 - [ ] Branch erstellen: `feature/module-umfragen`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.3.4 Terminbuchung
 - [ ] Branch erstellen: `feature/module-terminbuchung`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.3.5 Postfach
 - [ ] Branch erstellen: `feature/module-postfach`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.3.6 Zuständigkeitsfinder
 - [ ] Branch erstellen: `feature/module-zustaendigkeitsfinder`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.3.7 Rathaus-Informationssystem
 - [ ] Branch erstellen: `feature/module-rathaus-informationssystem`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.3.8 Content-Sharing
 - [ ] Branch erstellen: `feature/module-content-sharing`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 ### 3.4 Meldewesen-Module (5 Module)
 
@@ -347,30 +359,35 @@
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.4.2 Mängelmelder (mit Schnittstelle)
 - [ ] Branch erstellen: `feature/module-maengelmelder-mit-schnittstelle`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.4.3 Hinweisgebersystem
 - [ ] Branch erstellen: `feature/module-hinweisgebersystem`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.4.4 Fristenmelder
 - [ ] Branch erstellen: `feature/module-fristenmelder`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.4.5 Warnmeldungen
 - [ ] Branch erstellen: `feature/module-warnmeldungen`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 ### 3.5 Informations-Module (7 Module)
 
@@ -379,42 +396,49 @@
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.5.2 Wetter
 - [ ] Branch erstellen: `feature/module-wetter`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.5.3 Wassertemperatur
 - [ ] Branch erstellen: `feature/module-wassertemperatur`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.5.4 ÖPNV-Daten (Abfahrtspläne)
 - [ ] Branch erstellen: `feature/module-oepnv-daten-abfahrtsplaene`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.5.5 Datenvisualisierungen
 - [ ] Branch erstellen: `feature/module-datenvisualisierungen`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.5.6 Dashboard
 - [ ] Branch erstellen: `feature/module-dashboard`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.5.7 Abfallkalender
 - [ ] Branch erstellen: `feature/module-abfallkalender`
 - [ ] Bestehendes Modul prüfen und ggf. aktualisieren
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 ### 3.6 Wirtschafts-Module (6 Module)
 
@@ -423,36 +447,42 @@
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.6.2 Stellenanzeigen
 - [ ] Branch erstellen: `feature/module-stellenanzeigen`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.6.3 Produkte und Dienstleistungen
 - [ ] Branch erstellen: `feature/module-produkte-und-dienstleistungen`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.6.4 Gastro-Angebote
 - [ ] Branch erstellen: `feature/module-gastro-angebote`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.6.5 Gutscheine
 - [ ] Branch erstellen: `feature/module-gutscheine`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.6.6 Treueclub/Vorteilssystem
 - [ ] Branch erstellen: `feature/module-treueclub-vorteilssystem`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 ### 3.7 Mobilitäts-Module (3 Module)
 
@@ -461,18 +491,21 @@
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.7.2 Car-/Bikesharing-Angebote
 - [ ] Branch erstellen: `feature/module-car-bikesharing-angebote`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.7.3 Smartes Trampen
 - [ ] Branch erstellen: `feature/module-smartes-trampen`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 ### 3.8 Community-Module (2 Module)
 
@@ -481,12 +514,14 @@
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.8.2 Persönliches Profil (Bund.ID)
 - [ ] Branch erstellen: `feature/module-persoenliches-profil-bund-id`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 ### 3.9 Spezial-Module (5 Module)
 
@@ -495,30 +530,35 @@
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.9.2 Chatbot
 - [ ] Branch erstellen: `feature/module-chatbot`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.9.3 Nutzertracking
 - [ ] Branch erstellen: `feature/module-nutzertracking`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.9.4 Webview
 - [ ] Branch erstellen: `feature/module-webview`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 #### 3.9.5 Widgets
 - [ ] Branch erstellen: `feature/module-widgets`
 - [ ] STUB befüllen
 - [ ] Human Review & Korrekturen
 - [ ] Commit & PR nach Freigabe
+- [ ] PR mergen & Schema-Validierung
 
 ## 4. Qualitätssicherung
 
