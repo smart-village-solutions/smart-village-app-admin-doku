@@ -111,7 +111,7 @@ external_services:
   - name: "Keycloak"
     description: "Sichere Benutzerverwaltung und Authentifizierung."
 
-cost: "Die Einrichtung und der Betrieb können je nach Umfang der Anforderungen zusätzliche Kosten verursachen."
+cost: "Auf Anfrage"
 
 customization_options: 
   - "Listenansicht mit Vorschaubildern (klein/groß)"
