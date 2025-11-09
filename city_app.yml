@@ -47,6 +47,7 @@ modules:
   - "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/karten.yml"
   - https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/einstellungen.yml
   - https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/suche.yml
+  - https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/push-nachrichten.yml
   - https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/navigation.yml
   - https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/yml/merkliste-favoriten.yml
 #  - "https://gitlab.opencode.de/bad-belzig/smart-village-app/-/blob/main/modules/branchenbuch.yml"

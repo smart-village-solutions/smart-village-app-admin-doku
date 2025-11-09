@@ -1,0 +1,62 @@
+# Module Partial: push-nachrichten
+# This partial is merged with yml/global.yml to generate yml/push-nachrichten.yml
+# Last updated: 2025-11-09
+
+name: push-nachrichten
+topic: push-benachrichtigungen
+short_description: Ermöglicht das Versenden von Push-Benachrichtigungen an App-Nutzer
+usage_scenario: Verwaltung informiert Bürger per Push über wichtige Ereignisse wie
+  Straßensperrungen oder Veranstaltungsabsagen
+description: 'Das Push-Nachrichten-Modul ermöglicht es Redakteuren, zeitkritische
+  Informationen direkt an die Smartphones der Bürger zu senden.
+
+
+  **Funktionen:**
+
+  - Erstellung und Versand von Push-Benachrichtigungen
+
+  - Zeitgesteuerte Zustellung (sofort oder geplant)
+
+  - Zielgruppen-Segmentierung nach Themen/Interessen
+
+  - Statistiken über Zustellung und Klickrate
+
+  - Verlinkung zu Inhalten in der App
+
+
+  **Anwendungsfälle:**
+
+  - Eilmeldungen und Warnungen
+
+  - Erinnerungen an Veranstaltungen
+
+  - Hinweise auf neue Inhalte
+
+  - Service-Informationen (z.B. Rathaus-Schließung)'
+interfaces:
+- REST API für Push-Versand
+- CMS-Integration für Redakteure
+- Analytics-Schnittstelle für Statistiken
+dependencies:
+- cms
+- app-server
+external_services:
+- name: Firebase Cloud Messaging (FCM)
+  description: Push-Dienst für Android-Geräte
+- name: Apple Push Notification Service (APNs)
+  description: Push-Dienst für iOS-Geräte
+customization_options:
+- Push-Kategorien konfigurieren
+- Zeitfenster für Zustellung festlegen
+- Maximale Push-Frequenz pro Nutzer
+- Standard-Icons und -Töne
+involved_actors:
+- name: Redakteur
+  role: Erstellt und versendet Push-Benachrichtigungen
+- name: Administrator
+  role: Konfiguriert Push-Kategorien und Einstellungen
+- name: Bürger
+  role: Empfängt Push-Benachrichtigungen
+
+last_update: '2025-11-09'
+roadmap: []
