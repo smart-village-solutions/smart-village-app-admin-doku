@@ -1,0 +1,85 @@
+# Module Partial: nachrichten
+# This partial is merged with yml/global.yml to generate yml/nachrichten.yml
+# Last updated: 2025-11-09
+
+name: Nachrichten/Informationen
+topic: nachrichten
+short_description: Zentrale Informations- und News-Sektion für aktuelle Meldungen der Kommune
+usage_scenario: Bürger öffnet die App und liest aktuelle Nachrichten über Rathaus-Termine, Baumaßnahmen oder Veranstaltungshinweise
+description: 'Das Nachrichten-Modul bildet das zentrale Informationsportal der App. Hier werden alle aktuellen Mitteilungen, Pressemeldungen und Informationen der Kommune veröffentlicht.
+
+
+  **Funktionen:**
+
+  - Chronologische Darstellung aktueller Nachrichten
+
+  - Filterung nach Kategorien (z.B. Rathaus, Verkehr, Kultur)
+
+  - Volltext-Suche in allen Artikeln
+
+  - Detailansicht mit Bildern, Videos und Anhängen
+
+  - Teilen-Funktion für Social Media
+
+  - Push-Benachrichtigungen bei wichtigen Meldungen
+
+
+  **Inhaltstypen:**
+
+  - Pressemitteilungen
+
+  - Amtliche Bekanntmachungen
+
+  - Service-Informationen
+
+  - Verkehrsmeldungen
+
+  - Veranstaltungshinweise
+
+  - Rathaus-News
+
+
+  **Anwendungsfälle:**
+
+  - Kommune informiert über Straßensperrungen
+
+  - Rathaus veröffentlicht Öffnungszeiten an Feiertagen
+
+  - Tourismus-Abteilung kündigt neue Attraktionen an
+
+  - Bauamt informiert über Baustellen
+
+  - Kulturamt bewirbt kommende Veranstaltungen
+
+
+  **Besonderheiten:**
+
+  - Barrierefreie Darstellung
+  - RSS-Feed-Import aus bestehenden Systemen
+
+  - Zeitgesteuerte Veröffentlichung'
+interfaces:
+- App-Server GraphQL API
+- CMS-Schnittstelle
+- RSS-Feed-Import
+dependencies:
+- App-Server
+- CMS
+- Medien-Verwaltung
+customization_options:
+- Festlegung der News-Kategorien
+- Anzahl der Artikel pro Seite
+- Standard-Sortierung nach Datum oder Priorität
+- Bild-Darstellung (Liste mit Vorschaubildern oder ohne)
+- Filter-Optionen (Kategorie- und Zeitraum-Filter)
+involved_actors:
+- name: Redakteur
+  role: Erstellt und veröffentlicht Nachrichtenartikel
+- name: Administrator
+  role: Konfiguriert Kategorien und Layout
+- name: Bürger
+  role: Liest Nachrichten und teilt interessante Artikel
+
+external_services: []
+last_update: '2025-11-09'
+roadmap: []
