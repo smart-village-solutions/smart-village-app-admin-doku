@@ -10,28 +10,28 @@ description: 'Das Navigations-Modul steuert die Hauptnavigation der Smart Villag
 
 
   **Variante 1: Tabbar (Bottom Navigation)**
-  
+
   Die Tabbar ist eine dauerhafte Navigationsleiste am unteren Bildschirmrand mit 4-5 Icons für die wichtigsten Bereiche. Sie ist jederzeit sichtbar und ermöglicht schnellen Zugriff auf Hauptfunktionen.
-  
+
   - **Vorteile:** Immer sichtbar, direkter Zugriff, moderne mobile UX
-  
+
   - **Nachteile:** Begrenzt auf 4-5 Hauptbereiche
-  
+
   - **Typische Elemente:** Home, Veranstaltungen, Services, Wegweiser, Mehr
-  
+
   - **Anwendungsfall:** Für fokussierte Apps mit wenigen, klar strukturierten Hauptbereichen
 
 
   **Variante 2: Drawer (Seitenmenü)**
-  
+
   Der Drawer ist ein ausklappbares Seitenmenü (meist von links), das über ein Hamburger-Icon (☰) geöffnet wird. Er bietet Platz für viele Menüpunkte und kann hierarchisch strukturiert werden.
-  
+
   - **Vorteile:** Platz für viele Navigationspunkte, hierarchische Struktur möglich
-  
+
   - **Nachteile:** Nicht immer sichtbar, zusätzlicher Klick erforderlich
-  
+
   - **Typische Elemente:** Beliebig viele Bereiche, Unterkategorien, Einstellungen
-  
+
   - **Anwendungsfall:** Für Apps mit vielen verschiedenen Modulen und komplexerer Struktur
 
 
@@ -40,8 +40,6 @@ description: 'Das Navigations-Modul steuert die Hauptnavigation der Smart Villag
   - Konfigurierbare Reihenfolge der Navigationspunkte
 
   - Icons und Labels anpassbar
-
-  - Unterstützung für Badge-Anzeigen (z.B. "3 neue Nachrichten")
 
   - Deep-Linking zu allen Navigationspunkten
 
@@ -58,7 +56,6 @@ description: 'Das Navigations-Modul steuert die Hauptnavigation der Smart Villag
 interfaces:
 - App-Server-Konfiguration (JSON)
 - Deep-Linking-API für direkte Navigation
-- Badge-API für Benachrichtigungs-Zähler
 dependencies:
 - App-Server (Navigationskonfiguration)
 - Alle navigierbaren Module (Events, News, Services, etc.)
@@ -68,7 +65,6 @@ customization_options:
 - Icons für jeden Navigationspunkt
 - Labels (Text) für jeden Navigationspunkt
 - Farben und Styling der Navigation
-- Badge-Anzeigen aktivieren/deaktivieren
 involved_actors:
 - name: Administrator
   role: Konfiguriert die Navigationsstruktur und wählt die Variante (Tabbar/Drawer)
