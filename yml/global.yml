@@ -15,6 +15,9 @@ common:
   # Standard: Module sind optional
   optional: "ja"
 
+  # Standard-Kosten
+  cost: "Auf Anfrage"
+
   # Standard-Screenshot-Platzhalter (Module sollten echte URLs definieren)
   screenshots: ""
 

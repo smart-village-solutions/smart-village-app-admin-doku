@@ -75,7 +75,7 @@ def merge_with_global(module_data: Dict[str, Any], global_data: Dict[str, Any]) 
     schema_defaults = {
         'development_status': 'In Entwicklung',
         'optional': False,
-        'cost': 'Kostenlos'
+        'cost': 'Auf Anfrage'
     }
 
     # Start with schema defaults
