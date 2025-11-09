@@ -1,0 +1,57 @@
+name: "Abfallkalender"
+topic: "abfallkalender"
+short_description: "Übersicht über Müllabfuhr-Termine und Abfallentsorgung"
+last_update: "2025-11-09"
+
+usage_scenario: |
+  Das Abfallkalender-Modul informiert Bürgerinnen und Bürger über die Termine zur Müllabfuhr.
+
+  Typische Anwendungsfälle:
+  - Erinnerung an Abholtermine für Restmüll, Gelber Sack, Papier und Biomüll
+  - Push-Benachrichtigungen am Vorabend
+  - Übersicht über Sonderm üllsammlungen
+  - Standorte von Wertstoffhöfen und Recyclinghöfen
+
+description: |
+  Der Abfallkalender bietet eine übersichtliche Darstellung aller Abfuhrtermine für verschiedene Abfallarten.
+
+  **Hauptmerkmale:**
+  - Kalenderansicht mit farblicher Kennzeichnung nach Abfallart
+  - Listenansicht für kommende Termine
+  - Push-Benachrichtigungen (optional, individuell konfigurierbar)
+  - Filterfunktion nach Abfallarten
+  - Standortbasierte Anzeige (verschiedene Bezirke haben verschiedene Termine)
+
+  **Abfallarten:**
+  - Restmüll (schwarze Tonne)
+  - Gelber Sack / Gelbe Tonne
+  - Papier und Pappe (blaue Tonne)
+  - Bioabfall (braune Tonne)
+  - Sperrmüll (nach Anmeldung)
+  - Problemabfälle (Sammeltermine)
+
+interfaces:
+  - "iCal-Import (Termine in eigenen Kalender übernehmen)"
+  - "REST-API (Abruf der Termine)"
+  - "CMS (Verwaltung der Abfuhrpläne)"
+
+dependencies:
+  - "Push-Benachrichtigungen"
+  - "Standort-Services (für bezirksbasierte Anzeige)"
+
+external_services:
+  - name: "Abfallwirtschaftsbetrieb"
+    description: "Bereitstellung der Abfuhrpläne über Schnittstelle"
+
+customization_options:
+  - "Farbschema für verschiedene Abfallarten anpassbar"
+  - "Benachrichtigungszeiten konfigurierbar"
+  - "Integration eigener Abfuhrpläne per CSV/Excel-Import"
+
+involved_actors:
+  - name: "Bürger:innen"
+    role: "Nutzen den Kalender zur Information über Abfuhrtermine"
+  - name: "Abfallwirtschaftsbetrieb"
+    role: "Pflegt die Termine und Sondersammlungen"
+  - name: "Kommunale Verwaltung"
+    role: "Koordiniert Sondersammlungen und Informationskampagnen"

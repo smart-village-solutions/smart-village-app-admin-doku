@@ -19,7 +19,10 @@ common:
   cost: "Auf Anfrage"
 
   # Standard-Screenshot-Platzhalter (Module sollten echte URLs definieren)
-  screenshots: ""
+  screenshots: "https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-app/main/screenshots"
+
+  # Technische Dokumentation (GitLab README als Standard)
+  technical_documentation: "https://gitlab.opencode.de/bad-belzig/smart-village-app-app/-/blob/main/README.md"
 
   # Kommunen, in denen die Smart Village App eingesetzt wird
   # Module können diese Liste überschreiben, wenn sie nur in ausgewählten Kommunen verfügbar sind

@@ -1,0 +1,65 @@
+# DRAFT MODULE: push-nachrichten
+# Status: ENTWURF - Noch nicht finalisiert
+#
+# Dies ist ein AI-generierter Entwurf. Bitte überprüfen, korrigieren und ergänzen:
+# - Sind alle Angaben korrekt?
+# - Fehlen wichtige Informationen?
+# - Sind die Beschreibungen verständlich?
+# - Sind alle relevanten Akteure erfasst?
+# - Sind alle Schnittstellen dokumentiert?
+#
+# Nach der Überprüfung: python scripts/review_module.py --name push-nachrichten
+
+name: push-nachrichten
+topic: push-benachrichtigungen
+short_description: Ermöglicht das Versenden von Push-Benachrichtigungen an App-Nutzer
+usage_scenario: Verwaltung informiert Bürger per Push über wichtige Ereignisse wie
+  Straßensperrungen oder Veranstaltungsabsagen
+description: 'Das Push-Nachrichten-Modul ermöglicht es Redakteuren, zeitkritische
+  Informationen direkt an die Smartphones der Bürger zu senden.
+
+
+  **Funktionen:**
+
+  - Erstellung und Versand von Push-Benachrichtigungen
+
+  - Zeitgesteuerte Zustellung (sofort oder geplant)
+
+  - Zielgruppen-Segmentierung nach Themen/Interessen
+
+  - Statistiken über Zustellung und Klickrate
+
+  - Verlinkung zu Inhalten in der App
+
+
+  **Anwendungsfälle:**
+
+  - Eilmeldungen und Warnungen
+
+  - Erinnerungen an Veranstaltungen
+
+  - Hinweise auf neue Inhalte
+
+  - Service-Informationen (z.B. Rathaus-Schließung)'
+interfaces:
+- REST API für Push-Versand
+- CMS-Integration für Redakteure
+- Analytics-Schnittstelle für Statistiken
+dependencies:
+- cms
+- app-server
+external_services:
+- Firebase Cloud Messaging (FCM) für Android
+- Apple Push Notification Service (APNs) für iOS
+customization_options:
+- Push-Kategorien konfigurieren
+- Zeitfenster für Zustellung festlegen
+- Maximale Push-Frequenz pro Nutzer
+- Standard-Icons und -Töne
+involved_actors:
+- name: Redakteur
+  role: Erstellt und versendet Push-Benachrichtigungen
+- name: Administrator
+  role: Konfiguriert Push-Kategorien und Einstellungen
+- name: Bürger
+  role: Empfängt Push-Benachrichtigungen

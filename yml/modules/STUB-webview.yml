@@ -1,0 +1,21 @@
+# STUB MODULE: webview
+# Status: LEER - Muss noch ausgefüllt werden
+#
+# Dies ist eine leere Struktur gemäß Schema. Bitte ausfüllen:
+# 1. Kurzbeschreibung (short_description)
+# 2. Hauptszenario (usage_scenario)
+# 3. Ausführliche Beschreibung (description)
+# 4. Optionale Felder ergänzen (interfaces, dependencies, etc.)
+#
+# Nach dem Ausfüllen:
+# 1. Datei umbenennen von STUB-webview.yml zu webview.yml
+# 2. Review: python scripts/review_module.py --name webview
+# 3. Finalisierung: python scripts/finalize_module.py --name webview --full
+#
+# Erstellt am: 2025-11-09 15:40:52
+
+name: webview
+topic: nachrichten
+short_description: '[TODO: Kurzbeschreibung ergänzen]'
+usage_scenario: '[TODO: Hauptszenario beschreiben]'
+description: '[TODO: Ausführliche Beschreibung für webview ergänzen]'

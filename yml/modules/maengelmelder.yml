@@ -1,0 +1,122 @@
+name: "Mängelmelder"
+topic: "maengelmelder"
+short_description: "Bürger:innen melden Mängel im öffentlichen Raum digital"
+last_update: "2025-11-09"
+
+usage_scenario: |
+  Der Mängelmelder ermöglicht es Bürger:innen, Probleme und Mängel im öffentlichen Raum direkt über die App zu melden.
+
+  **Typische Anwendungsfälle:**
+  - Schlaglöcher oder Straßenschäden melden
+  - Defekte Straßenbeleuchtung
+  - Wilde Müllablagerungen
+  - Beschädigte Spielplätze oder Parkbänke
+  - Graffiti oder Vandalismus
+  - Barrieren oder Gefahrenstellen
+
+  **Vorteile:**
+  - Schnelle und unkomplizierte Meldung
+  - Standorterfassung per GPS
+  - Foto-Upload zur Dokumentation
+  - Transparente Bearbeitung und Statusverfolgung
+  - Entlastung der Telefon-Hotlines
+
+description: |
+  Das Mängelmelder-Modul ist ein niedrigschwelliges digitales Meldesystem für Bürger:innen.
+
+  ## Hauptfunktionen
+
+  **Meldung erstellen:**
+  - Kategorie-Auswahl (z.B. Straßen, Beleuchtung, Müll, Spielplätze)
+  - Standorterfassung automatisch per GPS oder manuell auf Karte
+  - Foto-Upload (bis zu 3 Bilder)
+  - Freitextbeschreibung des Problems
+  - Optional: Kontaktdaten für Rückfragen
+
+  **Statusverfolgung:**
+  - Übersicht aller eigenen Meldungen
+  - Status-Updates (Eingegangen, In Bearbeitung, Erledigt, Abgelehnt)
+  - Push-Benachrichtigung bei Statusänderung
+  - Kommentarfunktion zwischen Verwaltung und Melder:in
+
+  **Kartendarstellung:**
+  - Öffentliche Ansicht aller Meldungen auf Karte
+  - Filterung nach Kategorie und Status
+  - Clustering bei vielen Meldungen
+
+  ## Varianten
+
+  Das Modul ist in drei Ausbaustufen verfügbar:
+
+  ### 1. Einfacher Mängelmelder (Basis)
+  - Meldung per E-Mail an Verwaltung
+  - Keine Schnittstelle zu Fachanwendungen
+  - Manuelle Bearbeitung durch Verwaltung
+  - Geeignet für kleine Kommunen mit wenigen Meldungen
+
+  ### 2. Mängelmelder mit Workflow-System
+  - Verwaltungsoberfläche im CMS
+  - Status-Workflow (Neu → In Bearbeitung → Erledigt)
+  - Zuweisung an zuständige Ämter/Personen
+  - Statistiken und Reporting
+  - Geeignet für mittlere Kommunen
+
+  ### 3. Mängelmelder mit Fachverfahren-Schnittstelle
+  - Automatische Übergabe an Ticketsysteme (z.B. ServiceNow, ETOS, KIVBF)
+  - Bidirektionale Synchronisation
+  - Automatische Status-Updates aus Fachanwendung
+  - Zuständigkeitsprüfung und Routing
+  - Geeignet für große Kommunen mit etablierter IT-Infrastruktur
+
+  ## Datenschutz & Moderation
+
+  - Anonyme Meldungen möglich (ohne Registrierung)
+  - Optionale Angabe von Kontaktdaten
+  - Moderationsfunktion für unangemessene Inhalte
+  - DSGVO-konforme Datenspeicherung
+  - Automatische Löschung nach konfigurierter Frist
+
+interfaces:
+  - "REST-API (Meldungen abrufen/erstellen)"
+  - "GraphQL (für App-Frontend)"
+  - "E-Mail (Benachrichtigungen)"
+  - "Optional: SOAP/REST-Schnittstelle zu Ticketsystemen"
+  - "CMS (Verwaltungsoberfläche)"
+
+dependencies:
+  - "Karten-Modul (Standorterfassung)"
+  - "Push-Benachrichtigungen (Status-Updates)"
+  - "Medien-Upload (Foto-Upload)"
+  - "Optional: Authentifizierung (für persönliche Meldungen)"
+
+external_services:
+  - name: "Ticketsystem (optional)"
+    description: "Integration mit kommunalen Ticketsystemen wie ServiceNow, ETOS, KIVBF für automatische Weitergabe"
+  - name: "Geocoding-Service"
+    description: "Umwandlung von GPS-Koordinaten in Adressen"
+  - name: "E-Mail-Service"
+    description: "Versand von Benachrichtigungen an Verwaltung und Melder:innen"
+
+customization_options:
+  - "Meldekategorien individuell konfigurierbar"
+  - "Workflow-Status anpassbar"
+  - "E-Mail-Templates für Benachrichtigungen"
+  - "Kartendarstellung ein-/ausblendbar"
+  - "Anonyme vs. authentifizierte Meldungen"
+  - "Automatische Löschfristen konfigurierbar"
+  - "Zuständigkeitsgebiete per Polygon definierbar"
+
+involved_actors:
+  - name: "Bürger:innen"
+    role: "Melden Mängel über die App, verfolgen Status ihrer Meldungen"
+  - name: "Verwaltungsmitarbeiter:innen"
+    role: "Bearbeiten Meldungen, ändern Status, kommunizieren mit Melder:innen"
+  - name: "Bauhof / Technische Dienste"
+    role: "Erhalten Aufträge, beheben Mängel, aktualisieren Status"
+  - name: "Administrator:innen"
+    role: "Konfigurieren Kategorien, Workflows und Schnittstellen"
+  - name: "Moderator:innen"
+    role: "Prüfen Meldungen auf Zulässigkeit, löschen unangemessene Inhalte"
+
+development_status: "Beta"
+cost: "Basis-Version im Standardpaket enthalten, Schnittstellen-Integration nach Aufwand"

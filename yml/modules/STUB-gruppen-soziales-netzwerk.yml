@@ -1,0 +1,21 @@
+# STUB MODULE: gruppen-soziales-netzwerk
+# Status: LEER - Muss noch ausgefüllt werden
+#
+# Dies ist eine leere Struktur gemäß Schema. Bitte ausfüllen:
+# 1. Kurzbeschreibung (short_description)
+# 2. Hauptszenario (usage_scenario)
+# 3. Ausführliche Beschreibung (description)
+# 4. Optionale Felder ergänzen (interfaces, dependencies, etc.)
+#
+# Nach dem Ausfüllen:
+# 1. Datei umbenennen von STUB-gruppen-soziales-netzwerk.yml zu gruppen-soziales-netzwerk.yml
+# 2. Review: python scripts/review_module.py --name gruppen-soziales-netzwerk
+# 3. Finalisierung: python scripts/finalize_module.py --name gruppen-soziales-netzwerk --full
+#
+# Erstellt am: 2025-11-09 15:40:52
+
+name: gruppen-soziales-netzwerk
+topic: sozialdienste
+short_description: '[TODO: Kurzbeschreibung ergänzen]'
+usage_scenario: '[TODO: Hauptszenario beschreiben]'
+description: '[TODO: Ausführliche Beschreibung für gruppen-soziales-netzwerk ergänzen]'

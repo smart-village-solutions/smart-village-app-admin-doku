@@ -40,3 +40,6 @@ involved_actors:
   role: Passt App nach eigenen Präferenzen an
 - name: Administrator
   role: Konfiguriert verfügbare Einstellungsoptionen
+external_services: []
+last_update: '2025-11-09'
+roadmap: []

@@ -1,0 +1,21 @@
+# STUB MODULE: car-bikesharing-angebote
+# Status: LEER - Muss noch ausgefüllt werden
+#
+# Dies ist eine leere Struktur gemäß Schema. Bitte ausfüllen:
+# 1. Kurzbeschreibung (short_description)
+# 2. Hauptszenario (usage_scenario)
+# 3. Ausführliche Beschreibung (description)
+# 4. Optionale Felder ergänzen (interfaces, dependencies, etc.)
+#
+# Nach dem Ausfüllen:
+# 1. Datei umbenennen von STUB-car-bikesharing-angebote.yml zu car-bikesharing-angebote.yml
+# 2. Review: python scripts/review_module.py --name car-bikesharing-angebote
+# 3. Finalisierung: python scripts/finalize_module.py --name car-bikesharing-angebote --full
+#
+# Erstellt am: 2025-11-09 15:40:52
+
+name: car-bikesharing-angebote
+topic: mobilitätsdienste
+short_description: '[TODO: Kurzbeschreibung ergänzen]'
+usage_scenario: '[TODO: Hauptszenario beschreiben]'
+description: '[TODO: Ausführliche Beschreibung für car-bikesharing-angebote ergänzen]'
