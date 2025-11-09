@@ -208,13 +208,13 @@
 - [x] Commit & PR nach Freigabe
 - [x] PR gemergt & Schema-Validierung erfolgreich
 
-#### 3.1.3 Suche
+#### 3.1.3 Suche ✅
 
-- [ ] Branch erstellen: `feature/module-suche`
-- [ ] STUB befüllen
-- [ ] Human Review & Korrekturen
-- [ ] Commit & PR nach Freigabe
-- [ ] PR mergen & Schema-Validierung
+- [x] Branch erstellen: `feature/module-suche`
+- [x] STUB befüllen
+- [x] Human Review & Korrekturen
+- [x] Commit & PR nach Freigabe
+- [x] PR gemergt & Schema-Validierung erfolgreich
 
 #### 3.1.4 Navigation
 
@@ -606,14 +606,15 @@
 
 **Phase 1 (Setup):** 9/9 abgeschlossen ✅ 100%
 **Phase 2 (PoC + Workflow):** 7/7 abgeschlossen ✅ 100%
-**Phase 3 (Bulk-Erstellung):** 10/230 Tasks (2/46 Module) ✅ 4.3%
+**Phase 3 (Bulk-Erstellung):** 15/230 Tasks (3/46 Module) ✅ 6.5%
 **Phase 4 (QA):** 0/3 abgeschlossen
 **Phase 5 (CI/CD):** 0/2 abgeschlossen
 **Phase 6 (Nacharbeiten):** 0/2 abgeschlossen
 
-**Gesamt:** 26/269 Tasks abgeschlossen (9.7%)
+**Gesamt:** 31/269 Tasks abgeschlossen (11.5%)
 
-**Status:** 🚀 Phase 3 läuft! 2 Module abgeschlossen (App-Intro, Einstellungen)
-**Aktuelle Module:** 8 vollständig validiert (city_app, abfallkalender, app-intro, einstellungen, karten, maengelmelder, nachrichten, veranstaltungen)
-**STUBs erstellt:** 44 Module warten auf Befüllung (2 von 46 abgeschlossen)
-**Nächster Schritt:** 3.1.3 Suche (Branch erstellen)
+**Status:** 🚀 Phase 3 läuft! 3 Module abgeschlossen (App-Intro, Einstellungen, Suche)
+**Aktuelle Module:** 9 vollständig validiert (city_app, abfallkalender, app-intro, einstellungen, karten, maengelmelder, nachrichten, suche, veranstaltungen)
+**Schema-Abdeckung:** 20/20 Felder (100%) ✅
+**STUBs erstellt:** 43 Module warten auf Befüllung (3 von 46 abgeschlossen)
+**Nächster Schritt:** 3.1.4 Navigation (Branch erstellen)

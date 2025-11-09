@@ -184,7 +184,6 @@ def generate_ai_draft(name: str, schema: Dict[str, Any]) -> Dict[str, Any]:
         'name': name,
         **template
     }
-    }
 
     return module_data
 
