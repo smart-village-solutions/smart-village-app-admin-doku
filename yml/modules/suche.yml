@@ -1,0 +1,45 @@
+# Module Partial: suche
+# This partial is merged with yml/global.yml to generate yml/suche.yml
+# Last updated: 2025-11-09
+
+name: Suche
+topic: hilfe-und-faq
+short_description: Volltextsuche über alle App-Inhalte für schnelles Auffinden von Informationen
+usage_scenario: Nutzer sucht nach einem Begriff (z.B. "Abfall", "Rathaus", "Veranstaltung") und erhält relevante Ergebnisse aus allen Modulen
+description: 'Das Suche-Modul ermöglicht eine modulübergreifende Volltextsuche in der App. Nutzer können nach Stichworten suchen und erhalten Ergebnisse aus allen verfügbaren Datenquellen.
+
+
+  **Funktionen:**
+
+  - Volltextsuche über alle App-Inhalte (News, Veranstaltungen, POIs, Seiten, etc.)
+  - Autocomplete/Suchvorschläge während der Eingabe
+  - Filter nach Inhaltstypen (News, Events, Orte, etc.)
+  - Sortierung nach Relevanz oder Aktualität
+
+  **Anwendungsfälle:**
+  - Nutzer sucht nach "Abfallkalender" und findet die entsprechende Seite
+  - Nutzer sucht nach "Rathaus" und erhält POI, Öffnungszeiten und News
+  - Nutzer sucht nach einem Veranstaltungsnamen
+  - Nutzer nutzt Autocomplete für schnellere Eingabe'
+
+interfaces:
+- Meili-Search-API für Suchanfragen
+- App-interne Deeplinks zu Ergebnissen
+
+dependencies:
+- App-Server (Inhalte)
+- Meili Search (Suchmaschine)
+- Alle content-liefernden Module (News, Events, POIs, etc.)
+customization_options:
+- Suchbare Inhaltstypen konfigurieren
+- Anzahl der Autocomplete-Vorschläge
+- Suchverlauf aktivieren/deaktivieren
+- Minimale Suchlänge für Autocomplete
+involved_actors:
+- name: Nutzer
+  role: Führt Suchanfragen durch und navigiert zu Ergebnissen
+- name: Administrator
+  role: Konfiguriert durchsuchbare Inhaltstypen und Suchverhalten
+external_services: []
+last_update: '2025-11-09'
+roadmap: []
