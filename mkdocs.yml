@@ -106,6 +106,7 @@ nav:
       - Hosting-Setup (Docker etc.): dev/hosting.md
       - Sicherheit & Datenschutz: dev/datenschutz.md
       - API-Schnittstellen & Webhooks: dev/api.md
+      - Smoke Tests für Updates: dev/smoke-tests.md
 
   - So arbeiten wir im Projekt:
       - Unser Ansatz & Prinzipien: projekt/philosophie.md
