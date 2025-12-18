@@ -214,7 +214,8 @@ Für jedes Modul:
 **Phase 4 (Finalisierung):** 0/4 Tasks (0%)
 **Phase 5 (Nacharbeiten):** 0/3 Tasks (0%)
 
-**Gesamt:** 44/60 Tasks (73%)## Timeline
+**Gesamt:** 44/60 Tasks (73%)
+## Timeline
 
 - **Tag 0:** Phase 0 (Git-Workflow Setup)
 - **Tag 1-2:** Phase 1 (Dokumentation erstellen, Commits nach Abschnitten)
