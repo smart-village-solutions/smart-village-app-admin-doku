@@ -4,7 +4,7 @@
 
 name: Einstellungen
 topic: hilfe-und-faq
-screenshots: images/mocks/einstellungen.png
+screenshots: https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/images/mocks/einstellungen.png
 short_description: App-Einstellungen u.a. für Benachrichtigungen und persönliche Anpassungen
 usage_scenario: Nutzer öffnet die Einstellungen, um Push-Benachrichtigungen zu verwalten, Design anzupassen oder Datenschutzeinstellungen zu ändern
 description: 'Das Einstellungen-Modul bietet umfassende Konfigurationsmöglichkeiten für die App-Nutzung und Personalisierung. Die einzelnen Optionen sind abhängig von den jeweiligen App-Modulen.

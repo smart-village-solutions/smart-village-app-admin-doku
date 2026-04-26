@@ -4,7 +4,7 @@
 
 name: App-Intro
 topic: hilfe-und-faq
-screenshots: images/mocks/app-intro.png
+screenshots: https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/images/mocks/app-intro.png
 short_description: Einführungsbildschirme beim ersten App-Start zur Vorstellung der
   Funktionen
 usage_scenario: Neuer Nutzer öffnet die App zum ersten Mal und erhält eine Übersicht

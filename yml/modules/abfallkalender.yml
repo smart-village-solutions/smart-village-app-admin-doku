@@ -1,6 +1,6 @@
 name: "Abfallkalender"
 topic: "abfallkalender"
-screenshots: images/mocks/abfallkalender.png
+screenshots: https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/images/mocks/abfallkalender.png
 short_description: "Übersicht über Müllabfuhr-Termine und Abfallentsorgung"
 last_update: "2025-11-09"
 
