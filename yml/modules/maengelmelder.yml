@@ -1,5 +1,6 @@
 name: "Mängelmelder"
 topic: "maengelmelder"
+screenshots: images/mocks/maengelmelder.png
 short_description: "Bürger:innen melden Mängel im öffentlichen Raum digital"
 last_update: "2025-11-09"
 

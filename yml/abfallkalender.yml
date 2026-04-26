@@ -5,7 +5,7 @@
 opencode_repository: https://gitlab.opencode.de/bad-belzig/smart-village-app-app
 development_status: Production
 optional: ja
-screenshots: https://mock-repo.de/screenshots/
+screenshots: images/mocks/abfallkalender.png
 deployed_in_municipalities:
 - Angermünde
 - Arneburg-Goldbeck

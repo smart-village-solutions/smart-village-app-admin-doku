@@ -4,6 +4,7 @@
 
 name: push-nachrichten
 topic: push-benachrichtigungen
+screenshots: images/mocks/push-nachrichten.png
 short_description: Ermöglicht das Versenden von Push-Benachrichtigungen an App-Nutzer
 usage_scenario: Verwaltung informiert Bürger per Push über wichtige Ereignisse wie
   Straßensperrungen oder Veranstaltungsabsagen
