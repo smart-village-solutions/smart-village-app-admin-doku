@@ -4,6 +4,7 @@
 
 name: Nachrichten/Informationen
 topic: nachrichten
+screenshots: images/mocks/nachrichten.png
 short_description: Zentrale Informations- und News-Sektion für aktuelle Meldungen der Kommune
 usage_scenario: Bürger öffnet die App und liest aktuelle Nachrichten über Rathaus-Termine, Baumaßnahmen oder Veranstaltungshinweise
 description: 'Das Nachrichten-Modul bildet das zentrale Informationsportal der App. Hier werden alle aktuellen Mitteilungen, Pressemeldungen und Informationen der Kommune veröffentlicht.

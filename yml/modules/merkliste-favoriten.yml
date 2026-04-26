@@ -4,6 +4,7 @@
 
 name: Merkliste/Favoriten
 topic: hilfe-und-faq
+screenshots: images/mocks/merkliste-favoriten.png
 short_description: Persönliche Merkliste zum Speichern und schnellen Wiederfinden von Lieblingsinhalten
 usage_scenario: Nutzer markiert interessante Veranstaltungen, POIs oder News als Favoriten und findet sie später in der Merkliste wieder
 description: 'Das Merkliste/Favoriten-Modul ermöglicht es Nutzern, beliebige App-Inhalte zu bookmarken und in einer persönlichen Liste zu sammeln. So können wichtige oder interessante Inhalte schnell wiedergefunden werden.

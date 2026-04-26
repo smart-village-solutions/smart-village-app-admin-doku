@@ -4,7 +4,7 @@ short_description: "Bietet einen umfassenden Überblick über lokale Veranstaltu
 optional: "ja"
 development_status: "Production"
 last_update: "2025-08-22"
-screenshots: "https://mock-repo.de/veranstaltungen/screenshots/"
+screenshots: images/mocks/veranstaltungen.png
 
 usage_scenario: |
   Das Modul dient als zentrale Plattform für die Veröffentlichung und Verwaltung von Veranstaltungen in der Kommune. Es ermöglicht die Darstellung vielfältiger Veranstaltungsformate von verschiedenen Anbietern.
