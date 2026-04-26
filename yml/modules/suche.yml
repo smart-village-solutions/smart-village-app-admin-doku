@@ -4,6 +4,7 @@
 
 name: Suche
 topic: hilfe-und-faq
+screenshots: https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/images/mocks/suche.png
 short_description: Volltextsuche über alle App-Inhalte für schnelles Auffinden von Informationen
 usage_scenario: Nutzer sucht nach einem Begriff (z.B. "Abfall", "Rathaus", "Veranstaltung") und erhält relevante Ergebnisse aus allen Modulen
 description: 'Das Suche-Modul ermöglicht eine modulübergreifende Volltextsuche in der App. Nutzer können nach Stichworten suchen und erhalten Ergebnisse aus allen verfügbaren Datenquellen.

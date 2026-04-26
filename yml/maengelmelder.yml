@@ -5,7 +5,7 @@
 opencode_repository: https://gitlab.opencode.de/bad-belzig/smart-village-app-app
 development_status: Beta
 optional: ja
-screenshots: https://mock-repo.de/screenshots/
+screenshots: https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/images/mocks/maengelmelder.png
 deployed_in_municipalities:
 - Angermünde
 - Arneburg-Goldbeck

@@ -1,5 +1,6 @@
 name: "Mängelmelder"
 topic: "maengelmelder"
+screenshots: https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/images/mocks/maengelmelder.png
 short_description: "Bürger:innen melden Mängel im öffentlichen Raum digital"
 last_update: "2025-11-09"
 

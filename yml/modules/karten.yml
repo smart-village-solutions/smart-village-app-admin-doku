@@ -1,5 +1,6 @@
 name: "Karten"
 topic: "tourismusinformationen"
+screenshots: https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/images/mocks/karten.png
 short_description: "Interaktive Kartendarstellung mit OpenStreetMap für Standorte und Points of Interest"
 last_update: "2025-11-09"
 

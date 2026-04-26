@@ -6,7 +6,7 @@ opencode_repository: https://gitlab.opencode.de/bad-belzig/smart-village-app-app
 development_status: Production
 optional: ja
 cost: Auf Anfrage
-screenshots: https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-app/main/screenshots
+screenshots: https://raw.githubusercontent.com/smart-village-solutions/smart-village-app-admin-doku/main/images/mocks/navigation.png
 technical_documentation: https://gitlab.opencode.de/bad-belzig/smart-village-app-app/-/blob/main/README.md
 topic_enum_info: []
 deployed_in_municipalities:
