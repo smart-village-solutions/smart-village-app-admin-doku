@@ -7,7 +7,7 @@ provider: "Stadt Bad Belzig / Smart Village Solutions SVS GmbH"
 app_type: "Native App"
 short_description: "Modularer Open-Source-App-Baukasten für Kommunen jeder Größe. Mit zahlreichen anpassbaren Modulen dient die App als zentrale Plattform für Kommunikation und Services und fördert die digitale Teilhabe durch automatische Datenübernahme sowie eine starke Open-Source-Community."
 development_status: "Production"
-last_update: "2025-08-22"
+last_update: "2026-04-27"
 
 # Zusätzliche Lizenzangaben möglich?
 license:
